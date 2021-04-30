@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Cursos</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+  rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+    <div class="container-fluid">
+      <a id='' class="navbar-brand" href="#">
+        <img src="media/logoheader.png" alt="Samoyedo Brewery Logo" class="img-fluid navbar__logo__samo-logo">
+        <img src="media/logo2.png" alt="Samoyedo Brewery Logo" class="img-fluid navbar__logo__samo-logo-mobile">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class='navbar__lista__listaSecciones'>
+        <div class="collapse navbar-collapse secciones" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="mi_perfil.html">Perfil</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="productos.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Productos
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a href="cursos.html">Cursos<span class="badge rounded-pill bg-dark text-light">Nuevo</span></a></li>
+                <li><a href="productos.html#cervezas">Cervezas</a></li>
+                <li><a href="productos.html#maltas">Maltas</a></li>
+                <li><a href="productos.html#levaduras">Levaduras</a></li>
+                <li><a href="productos.html#equipamiento">Equipamiento</a></li>
+                <li><a href="productos.html#recetas">Recetas</a></li>
+              </ul>
+            </li>
+            <!-- <li class="nav-item">
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            </li> -->
+            <li class="nav-item">
+              <a class="nav-link" href="contacto.html">Contacto</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+            <button class="btn btn-search txt-white" type="submit">Buscar</button>
+          </form>
+        </div>
+        <i href="#" id="shoppingCart" class="material-icons"><a href='#'>&#xE8cc;</a></i>
+      </div>
+    </div>
+  </nav>
+  <section>
+    <div class="main__historia">
+      <h4 class='txt-white'>Se vienen los cursos para que te conviertas en un maestro cervecero!</h4>
+      <p class='text-center'>Proximamente, en modalidad online y presencial, arrancamos con nuestros cursos de elaboración de cerveza.</p>
+    </div>
+    <article class="cursos">	
+      <div class="card" style="width: 20rem;">
+        <img src="media/puppy-samoyed.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Curso - Cachorro Samoyedo</h5>
+          <p class="card-text">Aprenderás los fundamentos básicos para elaborar cerveza artesanal desde tu casa</p>
+          <a href="#" class="btn btn-primary">Agregar al carrito</a>
+        </div>
+      </div>
+      <div class="card" style="width: 20rem;">
+        <img src="media/puppy.jpeg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Curso - Joven Samoyedo</h5>
+          <p class="card-text">Para iniciados. Aprenderás a elaborar tus propias recetas, horneado y fermentación con levadura reciclada</p>
+          <a href="#" class="btn btn-primary">Agregar al carrito</a>
+        </div>
+      </div>
+      <div class="card" style="width: 20rem;">
+        <img src="media/samoyedo_feliz.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Curso - Líder Samoyedo</h5>
+          <p class="card-text">Este modulo es para aquellos que ya cocinan a modo de entretenimiento y quieren dar el salto y armar su microcervecería</p>
+          <a href="#" class="btn btn-primary">Agregar al carrito</a>
+        </div>
+      </div>
+    </article>
+  </section>
+  <footer>
+    <p>Samoyedo Brewery - Montevideo, Uruguay</p>
+    <a href="mailto:samoyedo@gmail.com">Enviar email a Samoyedo Brewery</a>
+    <p>telefono: 555-555-555</p>
+    <div class="rrss">
+      <ul>
+        <li><a href="https://www.facebook.com" class="fa fa-facebook" target="_blank"></a></li>
+        <li><a href="https://www.instagram.com/samoyedobeer/" class="fa fa-instagram" target="_blank"></a></li>
+      </ul>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+</body>
+</html>

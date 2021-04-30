@@ -1,0 +1,65 @@
+/* MEDIA QUERIES */
+
+@media only screen and (min-width: 920px) {
+  #title{
+    display: none;
+  }
+  
+  .navbar__logo__samo-logo{
+    width: 350px;
+    height: auto;
+  }
+} 
+
+@media only screen and (max-width: 767px) {
+  .navbar{
+    height: auto;
+  }
+  
+  .navbar__logo__samo-logo{
+    display: none
+  }
+  
+  .navbar__logo__samo-logo-mobile{
+    display: block;
+    width: 70px;
+    height: auto;
+  }
+  
+  .txt-gallery{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .foto{
+    width: 10px;
+    height: 10px;
+  }
+  
+  #sidebar-menu{
+    display: none;
+  }
+
+  #perfil-menu{
+    display:none!important;
+  }
+  
+  .productos__titulo__fondo{
+    background-color: $dark;
+  }
+
+  .productos__card{
+    display: flex;
+    justify-content: center;
+  }
+
+  legend{
+    font-size: 1.5rem;
+  }
+}
+
+@media only screen and (min-width: 990px) and (max-width: 1086px){
+  .stickyness--sidebar{
+    top:116px;
+  }
+}

@@ -1,0 +1,81 @@
+/*TEXTOS Y SECCIONES */
+@import 'opsReutilizables';
+
+.txt-white{
+  @include text-format;
+  color: $blanco;
+  text-align: center;
+}
+
+.txt-gallery{
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.textForm{
+  @include text-format;
+  color: $dark;
+  text-align: center;
+}
+
+.secciones{
+  a {
+    @include text-format;
+    text-decoration: none;
+    margin: 0 15px 0 0;
+    color: $blanco;
+    font-weight: 500;
+    :hover{
+      color: tomato;
+    }
+  }
+  li {
+    ul{
+      position: absolute;
+      display: none;
+      z-index: 100;
+    }
+  }
+}
+
+.samoyedo{
+  font-family: 'samoyedo', Cormorant unicase, serif ;
+}
+
+.main__historia {
+  p{
+    color: $blanco;
+    text-align: justify;
+    text-justify: inter-cluster;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.1rem;
+    padding: 0 20px;
+  }
+}
+
+.titulo{
+  position: relative;
+  z-index: 999;
+  align-items: center;
+  font-size: 2rem;
+  text-align: center;
+  margin: 0;
+  color: $blanco;
+  text-shadow: 3px 0 $dark, 0 1px $dark, 1px 0 $dark, 0 -1px $dark; 
+}
+
+.stickyness {
+  padding: 0;
+  text-decoration: none;
+  text-align: center;
+  width: 100%;
+  position: sticky;
+  top: 128px;
+  z-index:2;
+}
+
+.stickyness--sidebar{
+  top:122px;
+}
+
+

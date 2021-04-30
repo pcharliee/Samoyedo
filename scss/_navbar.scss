@@ -1,0 +1,64 @@
+/* NAV BAR */ 
+.navbar {
+  background-color: $fondo;
+  z-index: 9999;
+  a{ 
+    color: $fondo
+  }
+}
+
+.navbar__lista__listaSecciones{
+  display: flex;
+  flex-flow: row;
+  align-content: flex-end;
+  background-color: $fondo;
+  padding: 10px;
+}
+
+.navbar__logo__samo-logo{
+  height: auto;
+  width: 350px;
+  min-width: 200px;
+  max-width: 100%;
+}
+
+.navbar__logo__samo-logo-mobile{
+  display: none;
+}
+
+.dropdown-menu{
+  background-color: $gris!important;
+  li{
+    a{
+      padding-left: 10px;
+      color: $dark;  
+    }
+  }
+}
+
+.btn-search{
+  border: 1px $gris solid!important;
+  color:$blanco!important;
+}
+
+#shoppingCart{
+  text-decoration: none;
+  color: $blanco;
+  font-size: 2rem;
+  display: flex;
+  padding-left: 10px;
+  align-items: center;
+  a{
+    text-decoration: none;
+    color: $blanco;
+  }
+}
+
+.badge{
+  margin-left: 5px;
+  font-weight: 400;
+  transform: translateY(-3px)!important;
+}
+
+
+

@@ -1,0 +1,62 @@
+/*SIDEBAR PRODUCTOS*/
+*{
+  // border: 1px red dotted
+}
+
+.col-md-2{
+  padding: 0;
+  width: auto;
+}
+.mb-3{
+  margin: 5px;
+}
+
+
+.sidebar__menu{
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  height: 355px;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: $dark;
+}
+
+.productos{
+  justify-content: center;
+}
+
+.productos__titulo__fondo{
+  background-image: linear-gradient(to right, $dark, rgba(10, 87, 10, 0))
+}
+
+.productos__card{
+  display: flex;
+  max-width:410px;
+  justify-content: center;
+  img{
+    padding: 5px;
+    max-width: 130px;
+  }
+}
+
+.productos__card--maltas{
+  max-width: 320px;
+  img{
+    padding-top: 5px;
+    max-height: 215px;
+  }
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-body--maltas {
+  height: 220px;
+}
+
+.flex-column{
+  align-items: center;
+}

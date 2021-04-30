@@ -1,0 +1,19 @@
+/* GALERIA */
+.main__galeria{
+  grid-area: galeria;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  /* width/: 100%; */
+  img{
+    min-height:auto;
+    height: auto;
+    min-width: 175px;
+    width: 100%; 
+    transform: scale(0.9);
+  }
+}
+
+.main__galeria__samofotos{
+  margin: 0px;
+}

@@ -1,0 +1,38 @@
+$holiday: false;
+$Oktoberfest: rgba(218, 138, 47, 0.979);
+
+body {
+  @if $holiday == true {
+    background-image: linear-gradient(to bottom, $Oktoberfest, $dark);
+  } else {
+    background-image: linear-gradient(to bottom, #314e52, $dark);
+  }
+}
+
+@mixin text-format {
+  font-family: 'oswald', Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+}
+
+
+/* BUCLES */
+
+@for $cartas from 1 through 3 {
+  $color-fondo: #add8e6;
+  .card--#{$cartas} {background-color: $color-fondo / $cartas}
+}
+
+$coloresBtn: (
+  fondo: $hover,
+  fondo2: $alert,
+  fondo3: $confirm
+);
+
+@each $fondo, $color in $coloresBtn{
+  .btn--#{$fondo} {
+    @include text-format;
+    background-color: $color;
+    color: $blanco;
+  }
+}
+

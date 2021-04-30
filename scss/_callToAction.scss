@@ -1,0 +1,20 @@
+/* CALL TO ACTION */ 
+.cta{
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  background-color: $gris;
+  margin: 15px 0;
+  color: $dark;
+  h3{
+    color: $dark;
+  }
+  p{
+    text-align: justify;
+    font-family: 'Oswald', sans-serif;
+    text-justify: inter-cluster;
+    font-weight: 400;
+    font-size: 1.1rem;
+    padding: 0 20px;
+  }
+}

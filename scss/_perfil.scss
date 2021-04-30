@@ -1,0 +1,36 @@
+/* PERFIL */
+
+.perfil__header{
+  display: flex;
+  flex-flow: column nowrap;
+  font-size: 1.3rem;
+  align-items:center;
+  margin-top: 15px;
+}
+
+.perfil__header__antiguedad{
+  font-family: 'Oswald', sans-serif;
+  font-size: 0.8rem;
+}
+
+.perfil__acordion__items{
+  background-color: lightblue;
+  font-family: 'Oswald', 'Lucida Sans', 'Lucida Sans Regular', Verdana, sans-serif;
+  color: $fondo;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+
+.perfil__samopuntos__fondo{
+  background-color: $dark;
+  p{
+    color: $blanco;
+    font-family: 'Oswald', 'Lucida Sans', 'Lucida Sans Regular', Verdana, sans-serif;
+    font-size: 2rem;
+  }
+}
+
+.accordion-button:not(.collapsed){
+  color:$dark;
+}
+
