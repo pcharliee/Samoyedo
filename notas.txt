@@ -6,6 +6,6 @@ to-do:
 [x] -- fijarme los links de la navbar, que redireccionen bien y los 'active'
 [x] -- cambiar perfil tab a como si hubiese iniciado sesion
 [x] -- bucles y calculos en SASS (lo voy a hacer en _opsReutilizables.scss)
+[x] -- SEO (keywords, description y sitemaps en los html)
 [] -- arreglar el submenu de productos para que matchee con la seccion productos!
 [] -- deprecation warning para el @for de .card en _opsReutilizables.scss
-[] -- SEO (keywords, description y sitemaps en los html)
