@@ -1,4 +1,5 @@
 /* FORMULARIOS */
+@import 'txtSecciones';
 
 .formulario__bloque{
   background: lightblue;
@@ -6,8 +7,7 @@
 }
 
 legend {
-  font-family: 'Oswald', sans-serif;
-  text-transform: uppercase;
+  @include text-format;
   text-align: center;
   font-weight: bold; 
   font-size: 2rem;

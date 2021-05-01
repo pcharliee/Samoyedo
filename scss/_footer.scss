@@ -1,26 +1,17 @@
 /* FOOTER */
-$dark: #001514; 
-$fondo: #314e52; 
-$hover: #f2a154; 
-$alert: #c1292e; 
-$confirm: #5b8c5a;
-$blanco: #f7f6e7;
-$gris: #e7e6e1;
+@import 'txtSecciones';
 
 footer{
   padding: 0;
   margin: 0;
-  background: $dark;
   color:$gris;
-  text-transform: uppercase;
+  @include text-format;
   font-style: italic;
-  font-family: 'Oswald', Arial, Helvetica, sans-serif;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: flex-start;
-  // height: 250px;
-  height: 40vh;
+  height: auto;
   font-size: 0.8rem;
   a{
     text-decoration: none;
@@ -30,7 +21,6 @@ footer{
     display: flex;
     flex-flow: column;
     justify-items: flex-end;
-    padding: 0px!important
   }
   p{
     padding: 0;
@@ -62,5 +52,21 @@ footer{
   ul{
     display:flex;
     flex-direction: row;
+    padding: 0px;
+    li{
+      margin-right: 5px;
+      list-style: none;
+    }
   }
+}
+
+.footer__informacion__contacto{
+  display: flex;
+  flex-flow: column;
+  margin: 0px;
+  justify-content: space-evenly
+}
+
+.footer__informacion__sitemap{
+  padding-top:10px;
 }

@@ -4,13 +4,14 @@
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
-  /* width/: 100%; */
+  flex-basis: 1;
   img{
     min-height:auto;
     height: auto;
     min-width: 175px;
     width: 100%; 
     transform: scale(0.9);
+    flex-shrink: 1;
   }
 }
 
