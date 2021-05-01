@@ -8,3 +8,4 @@ to-do:
 [x] -- bucles y calculos en SASS (lo voy a hacer en _opsReutilizables.scss)
 [] -- arreglar el submenu de productos para que matchee con la seccion productos!
 [] -- deprecation warning para el @for de .card en _opsReutilizables.scss
+[] -- SEO (keywords, description y sitemaps en los html)

@@ -4,6 +4,8 @@
   #title{
     display: none;
   }
+
+
   
   .navbar__logo__samo-logo{
     width: 350px;
@@ -61,5 +63,11 @@
 @media only screen and (min-width: 990px) and (max-width: 1086px){
   .stickyness--sidebar{
     top:116px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .boton__modal {
+    display: none;
   }
 }

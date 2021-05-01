@@ -25,7 +25,8 @@ body {
 $coloresBtn: (
   fondo: $hover,
   fondo2: $alert,
-  fondo3: $confirm
+  fondo3: $confirm,
+  fondo4: $dark
 );
 
 @each $fondo, $color in $coloresBtn{

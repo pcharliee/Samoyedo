@@ -73,3 +73,18 @@ legend {
 .formulario__bloque--altiancho{
   height: 350px;
 }
+
+.formulario__sidebar__beneficios__detalles{
+  p{
+    font-size: 0.8rem;
+  }
+}
+
+.formulario__sidebar__beneficios__detalles__lista{
+  margin-top: 10px;
+  font-size: 0.9 rem;
+}
+
+.modal{
+  z-index: 10000;
+}
