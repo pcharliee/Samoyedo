@@ -9,3 +9,4 @@ to-do:
 [x] -- SEO (keywords, description y sitemaps en los html)
 [] -- arreglar el submenu de productos para que matchee con la seccion productos!
 [] -- deprecation warning para el @for de .card en _opsReutilizables.scss
+[] -- mejorar el justificado de los textos en productos.html
