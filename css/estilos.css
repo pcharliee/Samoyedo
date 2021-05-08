@@ -598,8 +598,7 @@ footer {
   max-width: 410px;
   justify-content: center; }
   .productos__card img {
-    padding: 5px;
-    max-width: 130px; }
+    max-width: 150px; }
 
 .productos__card__img--levadura {
   margin-left: 35px; }
