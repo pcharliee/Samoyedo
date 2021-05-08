@@ -601,6 +601,15 @@ footer {
     padding: 5px;
     max-width: 130px; }
 
+.productos__card__img--levadura {
+  margin-left: 35px; }
+
+.productos__card--levadura {
+  max-width: 320px; }
+  .productos__card--levadura img {
+    padding-top: 5px;
+    max-height: 306px; }
+
 .productos__card--maltas {
   max-width: 320px; }
   .productos__card--maltas img {
