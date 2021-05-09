@@ -866,19 +866,3 @@ body else {
   100% {
     color: #001514;
     opacity: 1; } }
-
-@-moz-keyframes fadeIn {
-  0% {
-    color: #e7e6e1;
-    opacity: 0; }
-  100% {
-    color: #001514;
-    opacity: 1; } }
-
-@-o-keyframes fadeIn {
-  0% {
-    color: #e7e6e1;
-    opacity: 0; }
-  100% {
-    color: #001514;
-    opacity: 1; } }
