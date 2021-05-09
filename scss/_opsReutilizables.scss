@@ -24,7 +24,12 @@ body {
 
 @for $duracion from 1 through 7 {
   $segundos: 0s;
-  .fade-in-#{$duracion} {animation: fadeIn 3s ease ($segundos + $duracion) forwards}
+  .fade-in-#{$duracion} {
+    animation: fadeIn 3s ease ($segundos + $duracion) forwards;
+    -o-animation: fadeIn 3s ease ($segundos + $duracion) forwards;
+    -moz-animation: fadeIn 3s ease ($segundos + $duracion) forwards;
+    -webkit-animation: fadeIn 3s ease ($segundos + $duracion) forwards;
+  }
 }
 
 $coloresBtn: (

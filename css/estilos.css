@@ -80,25 +80,46 @@ body else {
   background-color: #3a484d; }
 
 .fade-in-1 {
-  animation: fadeIn 3s ease 1s forwards; }
+  animation: fadeIn 3s ease 1s forwards;
+  -o-animation: fadeIn 3s ease 1s forwards;
+  -moz-animation: fadeIn 3s ease 1s forwards;
+  -webkit-animation: fadeIn 3s ease 1s forwards; }
 
 .fade-in-2 {
-  animation: fadeIn 3s ease 2s forwards; }
+  animation: fadeIn 3s ease 2s forwards;
+  -o-animation: fadeIn 3s ease 2s forwards;
+  -moz-animation: fadeIn 3s ease 2s forwards;
+  -webkit-animation: fadeIn 3s ease 2s forwards; }
 
 .fade-in-3 {
-  animation: fadeIn 3s ease 3s forwards; }
+  animation: fadeIn 3s ease 3s forwards;
+  -o-animation: fadeIn 3s ease 3s forwards;
+  -moz-animation: fadeIn 3s ease 3s forwards;
+  -webkit-animation: fadeIn 3s ease 3s forwards; }
 
 .fade-in-4 {
-  animation: fadeIn 3s ease 4s forwards; }
+  animation: fadeIn 3s ease 4s forwards;
+  -o-animation: fadeIn 3s ease 4s forwards;
+  -moz-animation: fadeIn 3s ease 4s forwards;
+  -webkit-animation: fadeIn 3s ease 4s forwards; }
 
 .fade-in-5 {
-  animation: fadeIn 3s ease 5s forwards; }
+  animation: fadeIn 3s ease 5s forwards;
+  -o-animation: fadeIn 3s ease 5s forwards;
+  -moz-animation: fadeIn 3s ease 5s forwards;
+  -webkit-animation: fadeIn 3s ease 5s forwards; }
 
 .fade-in-6 {
-  animation: fadeIn 3s ease 6s forwards; }
+  animation: fadeIn 3s ease 6s forwards;
+  -o-animation: fadeIn 3s ease 6s forwards;
+  -moz-animation: fadeIn 3s ease 6s forwards;
+  -webkit-animation: fadeIn 3s ease 6s forwards; }
 
 .fade-in-7 {
-  animation: fadeIn 3s ease 7s forwards; }
+  animation: fadeIn 3s ease 7s forwards;
+  -o-animation: fadeIn 3s ease 7s forwards;
+  -moz-animation: fadeIn 3s ease 7s forwards;
+  -webkit-animation: fadeIn 3s ease 7s forwards; }
 
 .btn--fondo {
   font-family: 'Oswald', Arial, Helvetica, sans-serif;
@@ -238,25 +259,46 @@ body else {
   background-color: #3a484d; }
 
 .fade-in-1 {
-  animation: fadeIn 3s ease 1s forwards; }
+  animation: fadeIn 3s ease 1s forwards;
+  -o-animation: fadeIn 3s ease 1s forwards;
+  -moz-animation: fadeIn 3s ease 1s forwards;
+  -webkit-animation: fadeIn 3s ease 1s forwards; }
 
 .fade-in-2 {
-  animation: fadeIn 3s ease 2s forwards; }
+  animation: fadeIn 3s ease 2s forwards;
+  -o-animation: fadeIn 3s ease 2s forwards;
+  -moz-animation: fadeIn 3s ease 2s forwards;
+  -webkit-animation: fadeIn 3s ease 2s forwards; }
 
 .fade-in-3 {
-  animation: fadeIn 3s ease 3s forwards; }
+  animation: fadeIn 3s ease 3s forwards;
+  -o-animation: fadeIn 3s ease 3s forwards;
+  -moz-animation: fadeIn 3s ease 3s forwards;
+  -webkit-animation: fadeIn 3s ease 3s forwards; }
 
 .fade-in-4 {
-  animation: fadeIn 3s ease 4s forwards; }
+  animation: fadeIn 3s ease 4s forwards;
+  -o-animation: fadeIn 3s ease 4s forwards;
+  -moz-animation: fadeIn 3s ease 4s forwards;
+  -webkit-animation: fadeIn 3s ease 4s forwards; }
 
 .fade-in-5 {
-  animation: fadeIn 3s ease 5s forwards; }
+  animation: fadeIn 3s ease 5s forwards;
+  -o-animation: fadeIn 3s ease 5s forwards;
+  -moz-animation: fadeIn 3s ease 5s forwards;
+  -webkit-animation: fadeIn 3s ease 5s forwards; }
 
 .fade-in-6 {
-  animation: fadeIn 3s ease 6s forwards; }
+  animation: fadeIn 3s ease 6s forwards;
+  -o-animation: fadeIn 3s ease 6s forwards;
+  -moz-animation: fadeIn 3s ease 6s forwards;
+  -webkit-animation: fadeIn 3s ease 6s forwards; }
 
 .fade-in-7 {
-  animation: fadeIn 3s ease 7s forwards; }
+  animation: fadeIn 3s ease 7s forwards;
+  -o-animation: fadeIn 3s ease 7s forwards;
+  -moz-animation: fadeIn 3s ease 7s forwards;
+  -webkit-animation: fadeIn 3s ease 7s forwards; }
 
 .btn--fondo {
   font-family: 'Oswald', Arial, Helvetica, sans-serif;
@@ -461,25 +503,46 @@ body else {
   background-color: #3a484d; }
 
 .fade-in-1 {
-  animation: fadeIn 3s ease 1s forwards; }
+  animation: fadeIn 3s ease 1s forwards;
+  -o-animation: fadeIn 3s ease 1s forwards;
+  -moz-animation: fadeIn 3s ease 1s forwards;
+  -webkit-animation: fadeIn 3s ease 1s forwards; }
 
 .fade-in-2 {
-  animation: fadeIn 3s ease 2s forwards; }
+  animation: fadeIn 3s ease 2s forwards;
+  -o-animation: fadeIn 3s ease 2s forwards;
+  -moz-animation: fadeIn 3s ease 2s forwards;
+  -webkit-animation: fadeIn 3s ease 2s forwards; }
 
 .fade-in-3 {
-  animation: fadeIn 3s ease 3s forwards; }
+  animation: fadeIn 3s ease 3s forwards;
+  -o-animation: fadeIn 3s ease 3s forwards;
+  -moz-animation: fadeIn 3s ease 3s forwards;
+  -webkit-animation: fadeIn 3s ease 3s forwards; }
 
 .fade-in-4 {
-  animation: fadeIn 3s ease 4s forwards; }
+  animation: fadeIn 3s ease 4s forwards;
+  -o-animation: fadeIn 3s ease 4s forwards;
+  -moz-animation: fadeIn 3s ease 4s forwards;
+  -webkit-animation: fadeIn 3s ease 4s forwards; }
 
 .fade-in-5 {
-  animation: fadeIn 3s ease 5s forwards; }
+  animation: fadeIn 3s ease 5s forwards;
+  -o-animation: fadeIn 3s ease 5s forwards;
+  -moz-animation: fadeIn 3s ease 5s forwards;
+  -webkit-animation: fadeIn 3s ease 5s forwards; }
 
 .fade-in-6 {
-  animation: fadeIn 3s ease 6s forwards; }
+  animation: fadeIn 3s ease 6s forwards;
+  -o-animation: fadeIn 3s ease 6s forwards;
+  -moz-animation: fadeIn 3s ease 6s forwards;
+  -webkit-animation: fadeIn 3s ease 6s forwards; }
 
 .fade-in-7 {
-  animation: fadeIn 3s ease 7s forwards; }
+  animation: fadeIn 3s ease 7s forwards;
+  -o-animation: fadeIn 3s ease 7s forwards;
+  -moz-animation: fadeIn 3s ease 7s forwards;
+  -webkit-animation: fadeIn 3s ease 7s forwards; }
 
 .btn--fondo {
   font-family: 'Oswald', Arial, Helvetica, sans-serif;
@@ -740,25 +803,46 @@ body else {
   background-color: #3a484d; }
 
 .fade-in-1 {
-  animation: fadeIn 3s ease 1s forwards; }
+  animation: fadeIn 3s ease 1s forwards;
+  -o-animation: fadeIn 3s ease 1s forwards;
+  -moz-animation: fadeIn 3s ease 1s forwards;
+  -webkit-animation: fadeIn 3s ease 1s forwards; }
 
 .fade-in-2 {
-  animation: fadeIn 3s ease 2s forwards; }
+  animation: fadeIn 3s ease 2s forwards;
+  -o-animation: fadeIn 3s ease 2s forwards;
+  -moz-animation: fadeIn 3s ease 2s forwards;
+  -webkit-animation: fadeIn 3s ease 2s forwards; }
 
 .fade-in-3 {
-  animation: fadeIn 3s ease 3s forwards; }
+  animation: fadeIn 3s ease 3s forwards;
+  -o-animation: fadeIn 3s ease 3s forwards;
+  -moz-animation: fadeIn 3s ease 3s forwards;
+  -webkit-animation: fadeIn 3s ease 3s forwards; }
 
 .fade-in-4 {
-  animation: fadeIn 3s ease 4s forwards; }
+  animation: fadeIn 3s ease 4s forwards;
+  -o-animation: fadeIn 3s ease 4s forwards;
+  -moz-animation: fadeIn 3s ease 4s forwards;
+  -webkit-animation: fadeIn 3s ease 4s forwards; }
 
 .fade-in-5 {
-  animation: fadeIn 3s ease 5s forwards; }
+  animation: fadeIn 3s ease 5s forwards;
+  -o-animation: fadeIn 3s ease 5s forwards;
+  -moz-animation: fadeIn 3s ease 5s forwards;
+  -webkit-animation: fadeIn 3s ease 5s forwards; }
 
 .fade-in-6 {
-  animation: fadeIn 3s ease 6s forwards; }
+  animation: fadeIn 3s ease 6s forwards;
+  -o-animation: fadeIn 3s ease 6s forwards;
+  -moz-animation: fadeIn 3s ease 6s forwards;
+  -webkit-animation: fadeIn 3s ease 6s forwards; }
 
 .fade-in-7 {
-  animation: fadeIn 3s ease 7s forwards; }
+  animation: fadeIn 3s ease 7s forwards;
+  -o-animation: fadeIn 3s ease 7s forwards;
+  -moz-animation: fadeIn 3s ease 7s forwards;
+  -webkit-animation: fadeIn 3s ease 7s forwards; }
 
 .btn--fondo {
   font-family: 'Oswald', Arial, Helvetica, sans-serif;
@@ -849,7 +933,10 @@ body else {
 
 /* ANIMACIONES */
 .fade-in {
-  animation: fadeIn 5s ease-in-out 0s; }
+  animation: fadeIn 5s ease-in-out 0s;
+  -o-animation: fadeIn 5s ease-in-out 0s;
+  -moz-animation: fadeIn 5s ease-in-out 0s;
+  -webkit-animation: fadeIn 5s ease-in-out 0s; }
 
 @keyframes fadeIn {
   0% {
