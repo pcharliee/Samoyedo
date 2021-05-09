@@ -3,12 +3,13 @@ https://pcharliee.github.io/Samoyedo/
 
 to-do:
 
-[] -- arreglar el submenu de productos para que matchee con la seccion productos!
 [] -- mejorar el justificado de los textos en productos.html
-[] -- arreglar legendas de los formularios para que no se salgan en iPhone
 [] -- Quitar el text-decoration del anchor de RRSS
 [] -- MediaQuery para arreglar las tarjetas de levaduras en mobile view
 [] -- deprecation warning para el @for de .card en _opsReutilizables.scss
+[x] -- separacion de las tarjetas de la pagina 'cursos' en mobile
+[x] -- arreglar legendas de los formularios para que no se salgan en iPhone
+[x] -- arreglar el submenu de productos para que matchee con la seccion productos!
 [x] -- cambiar perfil tab a como si hubiese iniciado sesion
 [x] -- fijarme los links de la navbar, que redireccionen bien y los 'active'
 [x] -- bucles y calculos en SASS (lo voy a hacer en _opsReutilizables.scss)
