@@ -37,11 +37,12 @@
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <li><a href="cursos.html">Cursos<span class="badge rounded-pill bg-dark text-light">Nuevo</span></a></li>
-                <li><a href="productos.html#cervezas">Cervezas</a></li>
-                <li><a href="productos.html#maltas">Maltas</a></li>
-                <li><a href="productos.html#levaduras">Levaduras</a></li>
-                <li><a href="productos.html#equipamiento">Equipamiento</a></li>
-                <li><a href="productos.html#recetas">Recetas</a></li>
+                <li><a href="#levaduras">Levaduras</a></li>
+                <li><a href="#maltas">Maltas</a></li>
+                <li><a href="#lupulos">Lúpulos</a></li>
+                <li><a href="#equipamiento">Equipamiento</a></li>
+                <li><a href="#recetas">Recetas</a></li>
+                <li><a href="#cervezas">Cervezas</a></li>
               </ul>
             </li>
             <!-- <li class="nav-item">
@@ -69,19 +70,19 @@
               <a href="productos.html#levaduras" class="nav-link txt-white">Levaduras</a>
             </li>
             <li>
-              <a href="#" class="nav-link txt-white">Maltas</a>
+              <a href="#maltas" class="nav-link txt-white">Maltas</a>
             </li>
             <li>
-              <a href="#" class="nav-link txt-white">Lúpulos</a>
+              <a href="#lupulos" class="nav-link txt-white">Lúpulos</a>
             </li>
             <li>
-              <a href="#" class="nav-link txt-white">Equipamiento</a>
+              <a href="#equipamiento" class="nav-link txt-white">Equipamiento</a>
             </li>
             <li>
-              <a href="#" class="nav-link txt-white">Recetas</a>
+              <a href="#recetas" class="nav-link txt-white">Recetas</a>
             </li>
             <li>
-              <a href="#" class="nav-link txt-white">Samobeers</a>
+              <a href="#cervezas" class="nav-link txt-white">Samobeers</a>
             </li>
           </ul>
           <hr>
@@ -102,8 +103,8 @@
       <main class="col-md-8 col-sm-12 col-lg-9">
         <aside class="row productos"> 
           <h3 class='txt-white productos__titulo__fondo' id='levaduras'>Levaduras</h3>
-          <div class="card mb-3 productos__card">
-            <article class="row g-0">
+          <article class="card m-1 productos__card">
+            <div class="row g-0">
               <div class="col-md-4 productos__card">
                 <img src="media/levaduras/kolsh-yeast.jpg" alt="Kolsch yeast" class='productos__card__img'>
               </div>
@@ -114,9 +115,9 @@
                   <a href="#" class="btn btn-warning">Agregar al carrito</a>
                 </div>
               </div>
-            </article>
-          </div>
-          <div class="card mb-3 productos__card">
+            </div>
+          </article>
+          <article class="card m-1 productos__card">
             <div class="row g-0">
               <div class="col-md-4 productos__card">
                 <img src="media/levaduras/german-wheat.jpg" alt="German yeast">
@@ -129,8 +130,8 @@
                 </div>
               </div>
             </div>
-          </div>
-          <div class="card mb-3 productos__card">
+          </article>
+          <article class="card m-1 productos__card">
             <div class="row g-0">
               <div class="col-md-4 productos__card">
                 <img src="media/levaduras/kveik yeast.jpg" alt="Kveik yeast">
@@ -143,46 +144,67 @@
                 </div>
               </div>
             </div>
-          </div>
+          </article>
           <h3 class='txt-white productos__titulo__fondo' id='maltas'>Maltas</h3>
-          <div class="card card--3 mb-3 productos__card--maltas">
-            <article class="row g-0">
+          <article class="card card--3 mb-3 productos__card--vertical">
+            <div class="row g-0">
               <div class="card" style="width: 20rem;">
-                <img src="media/maltas/mix-maltas.jpg" class="card-img-top" alt="...">
-                <div class="card-body card-body--maltas">
+                <img src="media/maltas/mix-maltas.jpg" class="card-img-top" alt="maltas">
+                <div class="card-body card-body--vertical">
                   <h5 class="card-title text-center">Preparado de maltas</h5>
-                  <p class="card-text">Te armamos el mix de maltas ideal para el estilo que quieras cocinar<br> <em>Recomendado para cocineros amateurs</em></p>
-                  <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                  <p class="card-text">Te armamos el mix de maltas ideal para el estilo que quieras cocinar.<br> <em>Recomendado para cocineros amateurs</em></p>
+                  <a href="#" class="btn btn-warning">Agregar al carrito</a>
                 </div>
               </div>
-            </article>
-          </div>
-          <div class="card--3 mb-3 productos__card--maltas">
-            <article class="row g-0">
+            </div>
+          </article>
+          <article class="card--3 mb-3 productos__card--vertical">
+            <div class="row g-0">
               <div class="card" style="width: 20rem;">
-                <img src="media/maltas/maltas-varias.png" class="card-img-top" alt="...">
-                <div class="card-body card-body--maltas">
+                <img src="media/maltas/maltas-varias.png" class="card-img-top" alt="mezcla de maltas">
+                <div class="card-body card-body--vertical">
                   <h5 class="card-title text-center">Arma tu mezcla de maltas</h5>
-                  <p class="card-text">Arma tu mezcla de maltas a tu gusto! <br> <em>Recomendado para cocineros experimentados</em></p>
-                  <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                  <p class="card-text">Selecciona a granel las maltas y cebadas para tu cerveza.<br> <em>Recomendado para cocineros experimentados</em></p>
+                  <a href="#" class="btn btn-warning">Agregar al carrito</a>
                 </div>
               </div>
-            </article>
-          </div>
+            </div>
+          </article>
+          <h3 class='txt-white productos__titulo__fondo' id='lupulos'>Lúpulos</h3>
+          <article class="card card--3 mb-3 productos__card--vertical">
+            <div class="row g-0">
+              <div class="card" style="width: 20rem;">
+                <img src="media/lupulos/lupulo_flor.jpg" class="card-img-top" alt="flor lupulo">
+                <div class="card-body card-body--vertical">
+                  <h5 class="card-title text-center">Lúpulos en flor <span class="badge rounded-pill bg-dark text-light">Exclusivo</span> </h5>
+                  <p class="card-text">Lúpulos en flor para tu cocción.<br><em>Disponibles: Cascade, Chinook, Mosaic, Citra</em></p>
+                  <a href="#" class="btn btn-warning">Agregar al carrito</a>
+                </div>
+              </div>
+            </div>
+          </article>
+          <article class="card--3 mb-3 productos__card--vertical">
+            <div class="row g-0">
+              <div class="card" style="width: 20rem;">
+                <img src="media/lupulos/pellets.jpg" class="card-img-top" alt="pellets lupulo">
+                <div class="card-body card-body--vertical">
+                  <h5 class="card-title text-center">Lúpulos en pellets</h5>
+                  <p class="card-text">La mejor selección de pellets para tu cocción<br><em>Disponibles: Centennial, Chinook, Citra, Galaxy, Willamette, Cascade, ...</em></p>
+                  <a href="#" class="btn btn-warning">Agregar al carrito</a>
+                </div>
+              </div>
+            </div>
+          </article>
           <article class='p-0' id=''>
-            <h3 class='txt-white productos__titulo__fondo'>Lúpulos</h3>
+            <h3 class='txt-white productos__titulo__fondo' id='equipamiento'>Equipamiento</h3>
             <p class='txt-white'>EN PROCESO...</p>
           </article>
           <article class='p-0' id=''>
-            <h3 class='txt-white productos__titulo__fondo'>Equipamiento</h3>
+            <h3 class='txt-white productos__titulo__fondo' id='recetas'>Recetas</h3>
             <p class='txt-white'>EN PROCESO...</p>
           </article>
           <article class='p-0' id=''>
-            <h3 class='txt-white productos__titulo__fondo'>Recetas</h3>
-            <p class='txt-white'>EN PROCESO...</p>
-          </article>
-          <article class='p-0' id=''>
-            <h3 class='txt-white productos__titulo__fondo'>Samobeers</h3>
+            <h3 class='txt-white productos__titulo__fondo' id='cervezas'>Samobeers</h3>
             <p class='txt-white'>EN PROCESO...</p>
           </article>
         </aside>
@@ -216,6 +238,9 @@
               <li class="">
                 <a class="" href="contacto.html">Contacto</a>
               </li>
+              <li class="">
+                <a class="" href="sign_up.html">Registro</a>
+              </li>
             </ul>
             <div class='col-md-4'>
               <ul>
@@ -223,11 +248,12 @@
                   <a class="" href="productos.html">Productos</a>
                   <ul class="">
                     <li><a href="cursos.html">Cursos<span class="badge rounded-pill bg-light text-dark">Nuevo</span></a></li>
-                    <li><a href="productos.html#cervezas">Cervezas</a></li>
-                    <li><a href="productos.html#maltas">Maltas</a></li>
-                    <li><a href="productos.html#levaduras">Levaduras</a></li>
-                    <li><a href="productos.html#equipamiento">Equipamiento</a></li>
-                    <li><a href="productos.html#recetas">Recetas</a></li>
+                    <li><a href="#levaduras">Levaduras</a></li>
+                    <li><a href="#maltas">Maltas</a></li>
+                    <li><a href="#lupulos">Lúpulos</a></li>
+                    <li><a href="#equipamiento">Equipamiento</a></li>
+                    <li><a href="#recetas">Recetas</a></li>
+                    <li><a href="#cervezas">Cervezas</a></li>
                   </ul>
                 </li>
               </ul>

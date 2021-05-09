@@ -37,11 +37,12 @@
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <li><a href="cursos.html">Cursos<span class="badge rounded-pill bg-dark text-light">Nuevo</span></a></li>
-                <li><a href="productos.html#cervezas">Cervezas</a></li>
-                <li><a href="productos.html#maltas">Maltas</a></li>
                 <li><a href="productos.html#levaduras">Levaduras</a></li>
+                <li><a href="productos.html#maltas">Maltas</a></li>
+                <li><a href="productos.html#lupulos">Lúpulos</a></li>
                 <li><a href="productos.html#equipamiento">Equipamiento</a></li>
                 <li><a href="productos.html#recetas">Recetas</a></li>
+                <li><a href="productos.html#cervezas">Cervezas</a></li>
               </ul>
             </li>
             <!-- <li class="nav-item">
@@ -61,33 +62,55 @@
     </div>
   </nav>
   <section>
-    <div class="main__historia">
-      <h4 class='txt-white'>Se vienen los cursos para que te conviertas en un maestro cervecero!</h4>
-      <p class='text-center'>Proximamente, en modalidad online y presencial, arrancamos con nuestros cursos de elaboración de cerveza.</p>
+    <div class="container-fluid">
+      <div class="row d-flex align-items-center cta__fondo">
+        <div class="col-md-6 d-flex justify-content-center">
+          <img src="media/logo.jpeg" id='cta-logo' class="img-fluid rounded-circle cta__fondo__img" alt="samoyedo logo">
+        </div>
+        <div class="cursos__texto__cta col-md-6 col-xs-12">
+          <p class='text-start fade-in-1'>"En mi vida cocine algo, jamás podria cocinar cerveza"</p>
+          <p class='text-center fade-in-2'>"Para hacer cerveza artesanal necesitas un equipo costoso"</p>
+          <p class='text-end fade-in-3'>"La cerveza del super no sabe a nada... y la del bar es muy cara..."</p>
+          <p class='text-center fade-in-4'>"¿Será muy complicado iniciar mi propia microbrewery?"</p>
+          <div class="cursos__texto__cta__invitacion mb-2 d-flex flex-column justify-content-center">
+            <p class='text-center'>
+              No dejes que la duda de incapacite y comienza ya mismo a hacer tu propia cerveza artesanal. Con modalidad <em>online</em> y <em>presencial</em>, Samoyedo te acompañara durante todo tu aprendizaje, compartiremos recetas y anécdotas que haran de ti el Home Brewer que siempre quisiste ser.
+            </p>
+            <form action="">
+              <button formaction='#cursos' class='btn btn--fondo3 text-center'>
+                ¿Qué estás esperando para hacer tu propia cerveza?
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
     </div>
-    <article class="cursos">	
-      <div class="card" style="width: 20rem;">
-        <img src="media/puppy-samoyed.jpg" class="card-img-top" alt="...">
+    <article class="cursos m-4" id="cursos">	
+      <div class="card m-2" style="width: 20rem;">
+        <img src="media/puppy-samoyed.jpg" class="card-img-top" alt="samoyedo bebe">
         <div class="card-body">
-          <h5 class="card-title">Curso - Cachorro Samoyedo</h5>
-          <p class="card-text">Aprenderás los fundamentos básicos para elaborar cerveza artesanal desde tu casa</p>
-          <a href="#" class="btn btn-primary">Agregar al carrito</a>
+          <h5 class="card-title text-center">Curso - Cachorro Samoyedo</h5>
+          <p class="card-text">Aprenderás los fundamentos básicos para elaborar cerveza artesanal desde tu casa.</p>
+          <p class='text-center'>Duración: 1 mes</p>
+          <a href="#" class="btn btn-warning">Agregar al carrito</a>
         </div>
       </div>
-      <div class="card" style="width: 20rem;">
-        <img src="media/puppy.jpeg" class="card-img-top" alt="...">
+      <div class="card m-2" style="width: 20rem;">
+        <img src="media/puppy.jpeg" class="card-img-top" alt="samoyedo joven">
         <div class="card-body">
-          <h5 class="card-title">Curso - Joven Samoyedo</h5>
+          <h5 class="card-title text-center">Curso - Joven Samoyedo</h5>
           <p class="card-text">Para iniciados. Aprenderás a elaborar tus propias recetas, horneado y fermentación con levadura reciclada</p>
-          <a href="#" class="btn btn-primary">Agregar al carrito</a>
+          <p class='text-center'>Duración: 2 <i class="fas fa-facebook-messenger    "></i></p>
+          <a href="#" class="btn btn-warning">Agregar al carrito</a>
         </div>
       </div>
-      <div class="card" style="width: 20rem;">
-        <img src="media/samoyedo_feliz.jpg" class="card-img-top" alt="...">
+      <div class="card m-2" style="width: 20rem;">
+        <img src="media/samoyedo_feliz.jpg" class="card-img-top" alt="samoyedo adulto">
         <div class="card-body">
-          <h5 class="card-title">Curso - Líder Samoyedo</h5>
-          <p class="card-text">Este modulo es para aquellos que ya cocinan a modo de entretenimiento y quieren dar el salto y armar su microcervecería</p>
-          <a href="#" class="btn btn-primary">Agregar al carrito</a>
+          <h5 class="card-title text-center">Curso - Líder Samoyedo</h5>
+          <p class="card-text">Para aquellos que ya cocinan a modo de entretenimiento y quieren dar el salto y armar su microcervecería</p>
+          <p class='text-center'>Duración: 4 meses</p>
+          <a href="#" class="btn btn-warning">Agregar al carrito</a>
         </div>
       </div>
     </article>
@@ -119,6 +142,9 @@
               <li class="">
                 <a class="" href="contacto.html">Contacto</a>
               </li>
+              <li class="">
+                <a class="" href="sign_up.html">Registro</a>
+              </li>
             </ul>
             <div class='col-md-4'>
               <ul>
@@ -126,11 +152,12 @@
                   <a class="" href="productos.html">Productos</a>
                   <ul class="">
                     <li><a href="cursos.html">Cursos<span class="badge rounded-pill bg-light text-dark">Nuevo</span></a></li>
-                    <li><a href="productos.html#cervezas">Cervezas</a></li>
-                    <li><a href="productos.html#maltas">Maltas</a></li>
                     <li><a href="productos.html#levaduras">Levaduras</a></li>
+                    <li><a href="productos.html#maltas">Maltas</a></li>
+                    <li><a href="productos.html#lupulos">Lúpulos</a></li>
                     <li><a href="productos.html#equipamiento">Equipamiento</a></li>
                     <li><a href="productos.html#recetas">Recetas</a></li>
+                    <li><a href="productos.html#cervezas">Cervezas</a></li>
                   </ul>
                 </li>
               </ul>

@@ -7,9 +7,6 @@
   padding: 0;
   width: auto;
 }
-.mb-3{
-  margin: 5px;
-}
 
 .sidebar__menu{
   display: flex;
@@ -38,19 +35,15 @@
   }
 }
 
-.productos__card__img--levadura{
-  margin-left: 35px;
-}
+// .productos__card--levadura{
+//   max-width: 320px;
+//   img{
+//     padding-top: 5px;
+//     max-height: 306px;
+//   }
+// }
 
-.productos__card--levadura{
-  max-width: 320px;
-  img{
-    padding-top: 5px;
-    max-height: 306px;
-  }
-}
-
-.productos__card--maltas{
+.productos__card--vertical{
   max-width: 320px;
   img{
     padding-top: 5px;
@@ -63,8 +56,8 @@
   flex-direction: column;
 }
 
-.card-body--maltas {
-  height: 220px;
+.card-body--vertical {
+  max-height: 250px;
 }
 
 .flex-column{

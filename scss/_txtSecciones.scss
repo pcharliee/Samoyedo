@@ -53,6 +53,25 @@
   }
 }
 
+.cursos__texto__cta {
+  p{
+    color: $blanco;
+    font-family: 'Oswald', sans-serif;
+    font-size: 0.9rem;
+    padding: 0 10px;
+  }
+}
+
+.cursos__texto__cta__invitacion {
+  p{
+    text-align: justify;
+    text-justify: inter-cluster;
+    font-family: 'Oswald', Arial, Helvetica, sans-serif;
+    color: $dark;
+    font-size: 1.2rem;
+  }
+}
+
 .titulo{
   position: relative;
   z-index: 999;

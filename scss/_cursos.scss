@@ -4,3 +4,12 @@
   flex-flow: row wrap;
   justify-content: space-around;
 }
+
+.cta__fondo{
+  background-color: $blanco
+}
+
+.cta__fondo__img {
+  width: 80vh;
+  height: auto;
+}
