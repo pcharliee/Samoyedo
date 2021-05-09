@@ -1,15 +1,15 @@
-aplique BEM a los formularios, sidebar la tab productos, navbar, mi perfil
-agregue un @if, un mixin y un map en opsReutilizables. (text-format le pega en txtSecciones, el map a los botones del formulario en 'sign up') y el if al fondo
-
-
 https://cdelgado.000webhostapp.com/
+https://pcharliee.github.io/Samoyedo/
 
 to-do:
 
-[x] -- fijarme los links de la navbar, que redireccionen bien y los 'active'
+[] -- arreglar el submenu de productos para que matchee con la seccion productos!
+[] -- mejorar el justificado de los textos en productos.html
+[] -- arreglar legendas de los formularios para que no se salgan en iPhone
+[] -- Quitar el text-decoration del anchor de RRSS
+[] -- MediaQuery para arreglar las tarjetas de levaduras en mobile view
+[] -- deprecation warning para el @for de .card en _opsReutilizables.scss
 [x] -- cambiar perfil tab a como si hubiese iniciado sesion
+[x] -- fijarme los links de la navbar, que redireccionen bien y los 'active'
 [x] -- bucles y calculos en SASS (lo voy a hacer en _opsReutilizables.scss)
 [x] -- SEO (keywords, description y sitemaps en los html)
-[] -- arreglar el submenu de productos para que matchee con la seccion productos!
-[] -- deprecation warning para el @for de .card en _opsReutilizables.scss
-[] -- mejorar el justificado de los textos en productos.html

@@ -3,10 +3,9 @@
 
 .formulario__bloque{
   background: lightblue;
-  // grid-area: login;
 }
 
-legend {
+.legend {
   @include text-format;
   text-align: center;
   font-weight: bold; 
