@@ -1086,7 +1086,9 @@ body else {
   .legend {
     font-size: 1.5rem; }
   .carou-img, .carou-img2, .carou-img3, .carou-img4 {
-    height: 50vh; } }
+    height: 50vh; }
+  .tarjeta {
+    margin: 15px 0; } }
 
 /*iPad Pro*/
 @media only screen and (min-width: 990px) and (max-width: 1086px) {
