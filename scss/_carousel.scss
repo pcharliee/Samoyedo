@@ -3,25 +3,25 @@
 
 .carou-img {
   @include carou-image;
-  background-image: url("/media/mucubaji2.jpeg");
+  background-image: url('../media/mucubaji2.jpeg');
   background-position: center bottom;
   content: "/media/logo2.png"
 }
 
 .carou-img2 {
   @include carou-image;
-  background-image: url("/media/sierra_nevada.jpeg");
+  background-image: url('../media/sierra_nevada.jpeg');
   background-position: center bottom;
 }
 
 .carou-img3 {
   @include carou-image;
-  background-image: url("/media/montanas.jpg");
+  background-image: url('../media/montanas.jpg');
   background-position: center top;
 }
 
 .carou-img4 {
   @include carou-image;
-  background-image: url("/media/laguna-de-mucubaji-magica.jpg");
+  background-image: url('../media/laguna-de-mucubaji-magica.jpg');
   background-position: center bottom;
 }

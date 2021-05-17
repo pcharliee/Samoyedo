@@ -20,10 +20,17 @@ body {
 .navbar {
   background-color: #314e52;
   z-index: 9999;
+  width: 100vw; }
+  .navbar a {
+    color: #314e52; }
+
+.navbar--index {
+  background-color: #314e52;
+  z-index: 9999;
   opacity: 0.9;
   position: fixed;
   width: 100vw; }
-  .navbar a {
+  .navbar--index a {
     color: #314e52; }
 
 .navbar--sticky {
@@ -312,7 +319,7 @@ body else {
   width: auto;
   height: 80vh;
   background-size: cover;
-  background-image: url("/media/mucubaji2.jpeg");
+  background-image: url("../media/mucubaji2.jpeg");
   background-position: center bottom;
   content: "/media/logo2.png"; }
 
@@ -320,21 +327,21 @@ body else {
   width: auto;
   height: 80vh;
   background-size: cover;
-  background-image: url("/media/sierra_nevada.jpeg");
+  background-image: url("../media/sierra_nevada.jpeg");
   background-position: center bottom; }
 
 .carou-img3 {
   width: auto;
   height: 80vh;
   background-size: cover;
-  background-image: url("/media/montanas.jpg");
+  background-image: url("../media/montanas.jpg");
   background-position: center top; }
 
 .carou-img4 {
   width: auto;
   height: 80vh;
   background-size: cover;
-  background-image: url("/media/laguna-de-mucubaji-magica.jpg");
+  background-image: url("../media/laguna-de-mucubaji-magica.jpg");
   background-position: center bottom; }
 
 /* GALERIA */
@@ -435,7 +442,8 @@ body else {
   color: #f7f6e7; }
 
 .formulario__bloque {
-  background: rgba(226, 255, 213, 0.973); }
+  background: rgba(226, 255, 213, 0.973);
+  padding: 10px; }
 
 .legend {
   font-family: 'Oswald', Arial, Helvetica, sans-serif;

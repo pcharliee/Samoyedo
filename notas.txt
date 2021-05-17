@@ -6,9 +6,11 @@ to-do:
 [] -- call to action button en la seccion de cursos
 [] -- Quitar el text-decoration del anchor de RRSS
 [] -- centrar input del formulario en el homepage
+[] -- incluir favicon
+[] -- links del sidebar en perfil
 [] -- rediseno del homepage
   [] -- imagen de fondo estatica mientras scrolleas (?)
-  [] --
+  [] -- tarjetas con info de la cerveza atras
 [x] -- margen al texto en la pagina de 'contacto'
 [x] -- deprecation warning para el @for de .card en _opsReutilizables.scss
 [x] -- mejorar el justificado de los textos en productos.html

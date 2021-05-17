@@ -2,6 +2,16 @@
 .navbar {
   background-color: $fondo;
   z-index: 9999;
+  // opacity: 0.9;
+  a{ 
+    color: $fondo
+  }
+  width: 100vw
+}
+
+.navbar--index {
+  background-color: $fondo;
+  z-index: 9999;
   opacity: 0.9;
   a{ 
     color: $fondo
