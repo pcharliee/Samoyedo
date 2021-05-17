@@ -3,10 +3,16 @@ https://pcharliee.github.io/Samoyedo/
 
 to-do:
 
-[] -- mejorar el justificado de los textos en productos.html
+[] -- call to action button en la seccion de cursos
 [] -- Quitar el text-decoration del anchor de RRSS
-[] -- MediaQuery para arreglar las tarjetas de levaduras en mobile view
-[] -- deprecation warning para el @for de .card en _opsReutilizables.scss
+[] -- centrar input del formulario en el homepage
+[] -- rediseno del homepage
+  [] -- imagen de fondo estatica mientras scrolleas (?)
+  [] --
+[x] -- margen al texto en la pagina de 'contacto'
+[x] -- deprecation warning para el @for de .card en _opsReutilizables.scss
+[x] -- mejorar el justificado de los textos en productos.html
+[x] -- MediaQuery para arreglar las tarjetas de levaduras en mobile view
 [x] -- separacion de las tarjetas de la pagina 'cursos' en mobile
 [x] -- arreglar legendas de los formularios para que no se salgan en iPhone
 [x] -- arreglar el submenu de productos para que matchee con la seccion productos!

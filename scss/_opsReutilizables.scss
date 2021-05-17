@@ -14,6 +14,17 @@ body {
   text-transform: uppercase;
 }
 
+@mixin fl-col {
+  display: flex;
+  flex-direction: column
+}
+
+@mixin carou-image {
+  width: auto;
+  height: 80vh;
+  background-size: cover;
+}
+
 
 /* BUCLES */
 

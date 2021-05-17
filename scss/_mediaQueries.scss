@@ -25,7 +25,6 @@
   
   .cursos__texto__cta__invitacion{
     p{
-
       text-align: justify;
       text-justify: inter-cluster;
       font-family: 'Oswald', Arial, Helvetica, sans-serif;
@@ -34,7 +33,6 @@
     }
   }
 } 
-
 
 @media only screen and (min-width: 920px) {
   #title{
@@ -45,8 +43,8 @@
     width: 350px;
     height: auto;
   }
-} 
-
+}
+/*iPhone 6/7/8*/
 @media only screen and (max-width: 767px) {
   .navbar{
     height: auto;
@@ -84,24 +82,48 @@
     background-color: $dark;
   }
   
-  .productos__card{
-    display: flex;
-    justify-content: center;
-  }
-  
   .legend{
     font-size: 1.5rem;
   }
+
+  .carou-img, .carou-img2, .carou-img3, .carou-img4 {
+    height: 50vh;
+  }
 }
 
+/*iPad Pro*/
 @media only screen and (min-width: 990px) and (max-width: 1086px){
   .stickyness--sidebar{
     top:116px;
   }
+
+  .carou-img, .carou-img2, .carou-img3, .carou-img4 {
+    height: 50vh;
+  }
 }
 
-@media only screen and (min-width: 768px) {
+/*iPad Comun*/
+@media only screen and (min-width: 768px) and (max-width: 1000px){
   .boton__modal {
     display: none;
+  }
+
+  .sidebar__menu {
+    height: 81vh;
+  }
+
+  .carou-img, .carou-img2, .carou-img3, .carou-img4 {
+    height: 50vh;
+  }
+}
+
+/*Pantallas grandes*/
+@media only screen and (min-width: 1500px) {
+  .sidebar__menu {
+    height: 90vh;
+  }
+
+  .sidebar__list {
+    font-size: 1.2rem;
   }
 }

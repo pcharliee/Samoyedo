@@ -2,9 +2,16 @@
 .navbar {
   background-color: $fondo;
   z-index: 9999;
+  opacity: 0.9;
   a{ 
     color: $fondo
   }
+  position: fixed;
+  width: 100vw
+}
+
+.navbar--sticky {
+  position: sticky
 }
 
 .navbar__lista__listaSecciones{

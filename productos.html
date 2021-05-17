@@ -65,7 +65,7 @@
     <div class="row">
       <div class="col-md-2" id='sidebar-menu'>
         <div class="d-flex flex-column p-3 text-white sidebar__menu stickyness stickyness--sidebar">
-          <ul class="nav nav-pills flex-column mb-auto">
+          <ul class="nav nav-pills d-flex flex-column sidebar__list">
             <li class="nav-item">
               <a href="productos.html#levaduras" class="nav-link txt-white">Levaduras</a>
             </li>
@@ -92,7 +92,7 @@
               <strong>Carlos Delgado</strong>
             </a>
             <ul class="dropdown-menu dropdown-menu-light text-small shadow" aria-labelledby="dropdownUser1">
-              <li><a class="dropdown-item text-center" href="#">Perfil</a></li>
+              <li><a class="dropdown-item text-center" href="mi_perfil.html">Perfil</a></li>
               <li><a class="dropdown-item text-center" href="#">Preferencias</a></li>
               <li><hr class="dropdown-divider"></li>
               <li><a class="dropdown-item text-center" href="#">Cerrar sesión</a></li>
@@ -103,49 +103,92 @@
       <main class="col-md-8 col-sm-12 col-lg-9">
         <aside class="row productos"> 
           <h3 class='txt-white productos__titulo__fondo' id='levaduras'>Levaduras</h3>
-          <article class="card m-1 productos__card">
-            <div class="row g-0">
-              <div class="col-md-4 productos__card">
-                <img src="media/levaduras/kolsh-yeast.jpg" alt="Kolsch yeast" class='productos__card__img'>
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title text-center">Kölsch</h5>
-                  <p class="card-text">Ideal para estilos Kölsch. Posee un carácter natural que ofrece sutiles aromas frutales. Libre de gluten</p>
-                  <a href="#" class="btn btn-warning">Agregar al carrito</a>
+          <section class="productos__bloque m-3">
+            <article class="tarjeta card--3">
+              <div class="tarjeta__body">
+                <div class="tarjeta__body__img">
+                  <img src="media/levaduras/kolsh-yeast.jpg" class="img-fluid"  alt="Kolsch yeast">
+                </div>
+                <div class="tarjeta__body__titulo textForm">
+                  <h5>Kölsch</h5>
+                </div>
+                <div class="tarjeta__body__desc text-center">
+                  <p>Ideal para estilos Kölsch. Posee un carácter natural que ofrece sutiles aromas frutales. <strong>Libre de gluten</strong></p>
+                </div>
+                <div class="tarjeta__body__boton">
+                  <a href="#" class="btn txt-white"><span>$350,00</span></a>
                 </div>
               </div>
-            </div>
-          </article>
-          <article class="card m-1 productos__card">
-            <div class="row g-0">
-              <div class="col-md-4 productos__card">
-                <img src="media/levaduras/german-wheat.jpg" alt="German yeast">
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title text-center">Munich Classic</h5>
-                  <p class="card-text">Se adapta perfectamente a la elaboración de cervezas de trigo. Aporta ésteres afrutados muy aromáticos y fenoles a plátano y clavo de olor</p>
-                  <a href="#" class="btn btn-warning">Agregar al carrito</a>
+            </article>
+            <article class="tarjeta card--3">
+              <div class="tarjeta__body">
+                <div class="tarjeta__body__img">
+                  <img src="media/levaduras/german-wheat.jpg" class="img-fluid"  alt="Munich Classic yeast">
+                </div>
+                <div class="tarjeta__body__titulo textForm">
+                  <h5>Munich Classic</h5>
+                </div>
+                <div class="tarjeta__body__desc text-center">
+                  <p>Se adapta perfectamente a la elaboración de cervezas de trigo. Aporta ésteres afrutados muy aromáticos y fenoles a plátano y clavo de olor</p>
+                </div>
+                <div class="tarjeta__body__boton">
+                  <a href="#" class="btn txt-white"><span>$350,00</span></a>
                 </div>
               </div>
-            </div>
-          </article>
-          <article class="card m-1 productos__card">
-            <div class="row g-0">
-              <div class="col-md-4 productos__card">
-                <img src="media/levaduras/kveik yeast.jpg" alt="Kveik yeast">
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title text-center">Kveik</h5>
-                  <p class="card-text">Levadura de alta tolerancia a la temperatura de fermentación. Ésteres a ánana, manzana. Famosa por no generar 'off-flavors'</p>
-                  <a href="#" class="btn btn-warning">Agregar al carrito</a>
+            </article>
+            <article class="tarjeta card--3">
+              <div class="tarjeta__body">
+                <div class="tarjeta__body__img">
+                  <img src="media/levaduras/kveik yeast.jpg" class="img-fluid"  alt="Kveik yeast">
+                </div>
+                <div class="tarjeta__body__titulo textForm">
+                  <h5>Kveik</h5>
+                </div>
+                <div class="tarjeta__body__desc text-center">
+                  <p>Levadura de alta tolerancia a la temperatura de fermentación. Ésteres a ánana, manzana. Famosa por no generar 'off-flavors'</p>
+                </div>
+                <div class="tarjeta__body__boton">
+                  <a href="#" class="btn txt-white"><span>$350,00</span></a>
                 </div>
               </div>
-            </div>
-          </article>
+            </article>
+          </section>
           <h3 class='txt-white productos__titulo__fondo' id='maltas'>Maltas</h3>
+          <section class="productos__bloque m-3">
+            <article class="tarjeta card--3">
+              <div class="tarjeta__body">
+                <div class="tarjeta__body__img">
+                  <img src="media/maltas/mix-maltas.jpg" class="img-fluid"  alt="maltas">
+                </div>
+                <div class="tarjeta__body__titulo textForm">
+                  <h5>Prearmado de maltas</h5>
+                </div>
+                <div class="tarjeta__body__desc text-center">
+                  <p>Te armamos el mix de maltas ideal para el estilo que quieras cocinar.<br> <em>Recomendado para cocineros amateurs</em></p>
+                </div>
+                <div class="tarjeta__body__boton">
+                  <a href="#" class="btn txt-white"><span>$1.850,00</span></a>
+                </div>
+              </div>
+            </article>
+            <article class="tarjeta card--3">
+              <div class="tarjeta__body">
+                <div class="tarjeta__body__img">
+                  <img src="media/maltas/maltas-varias.jpg" class="img-fluid"  alt="maltas">
+                </div>
+                <div class="tarjeta__body__titulo textForm">
+                  <h5>Arma tu mezcla</h5>
+                </div>
+                <div class="tarjeta__body__desc text-center">
+                  <p>Selecciona a granel las maltas y cebadas para tu cerveza.<br> <em>Recomendado para cocineros experimentados</em></p>
+                </div>
+                <div class="tarjeta__body__boton">
+                  <a href="#" class="btn txt-white"><span>$2.100,00</span></a>
+                </div>
+              </div>
+            </article>
+          </section>
+          <!-- <article class="card m-1 productos__card">
           <article class="card card--3 mb-3 productos__card--vertical">
             <div class="row g-0">
               <div class="card" style="width: 20rem;">
@@ -206,7 +249,7 @@
           <article class='p-0' id=''>
             <h3 class='txt-white productos__titulo__fondo' id='cervezas'>Samobeers</h3>
             <p class='txt-white'>EN PROCESO...</p>
-          </article>
+          </article> -->
         </aside>
       </main>
     </div>

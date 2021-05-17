@@ -1,4 +1,6 @@
 /*SIDEBAR PRODUCTOS*/
+@import 'opsReutilizables';
+
 *{
   // border: 1px red dotted
 }
@@ -9,10 +11,9 @@
 }
 
 .sidebar__menu{
-  display: flex;
-  flex-direction: column;
-  width: 200px;
-  height: 355px;
+  @include fl-col;
+  width: 220px;
+  height: 81vh;
   align-items: center;
   justify-content: space-evenly;
   background-color: $dark;
@@ -26,42 +27,86 @@
   background-image: linear-gradient(to right, $dark, rgba(10, 87, 10, 0))
 }
 
-.productos__card{
-  display: flex;
-  max-width:410px;
-  justify-content: center;
-  img{
-    max-width: 150px;
-  }
-}
-
-// .productos__card--levadura{
-//   max-width: 320px;
-//   img{
-//     padding-top: 5px;
-//     max-height: 306px;
-//   }
-// }
-
-.productos__card--vertical{
-  max-width: 320px;
-  img{
-    padding-top: 5px;
-    max-height: 215px;
-  }
-}
-
 .card-body {
-  display: flex;
-  flex-direction: column;
+  @include fl-col;
 }
 
 .card-body--vertical {
   max-height: 250px;
 }
 
-.flex-column{
+.sidebar__list {
+  height: 55vh;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+}
+
+.productos__bloque {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+
+.tarjeta {
+  height: auto;
+  width: 230px;
+  background-color: $blanco;
+  border-radius: 3%;
+  display: flex;
+  flex-flow: column nowrap;
   align-items: center;
+  justify-content: center;
+}
+
+.tarjeta__body {
+  height: 350px;
+  width: 215px;
+  background-color: $blanco;
+  border-radius: 3%;
+  @include fl-col;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.tarjeta__body__titulo {
+  h5{
+    margin: 0;
+  }
+}
+
+.tarjeta__body__img {
+  background-color: lightblue;
+  width: 150px;
+  height: auto;
+  // margin-top: 10px;
+  border-radius: 3%;
+}
+
+.tarjeta__body__desc {
+  width: 180px;
+  font-size: 0.8rem;
+  p {
+    margin: 0;
+  }
+}
+
+.tarjeta__body__boton {
+  a{
+    padding: 5px 10px;
+    background-color: $confirm;
+    font-size: 0.8rem;
+    -webkit-box-shadow: 5px 3px 20px -8px #000000; 
+    box-shadow: 5px 3px 20px -8px #000000;
+  }
+  :hover{
+    color: $blanco
+  }
+  :hover span {
+    display: none
+  }
+  :hover:before{
+    content: "Agregar al carrito"
+  }
 }
 
 

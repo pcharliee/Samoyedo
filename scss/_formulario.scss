@@ -1,8 +1,8 @@
 /* FORMULARIOS */
-@import 'txtSecciones';
+@import 'opsReutilizables';
 
 .formulario__bloque{
-  background: lightblue;
+  background: rgba(226, 255, 213, 0.973);
 }
 
 .legend {
@@ -21,8 +21,7 @@
   top: 128px;
   z-index:2;
   fieldset{
-    display: flex;
-    flex-direction: column;
+    @include fl-col;
     justify-items: flex-end;
     align-items: center;
   }
@@ -46,8 +45,7 @@
 
 .userInfo{
   height: auto;
-  display: flex;
-  flex-direction: column;
+  @include fl-col;
   text-align: center;
   width: 70%;
   input{
