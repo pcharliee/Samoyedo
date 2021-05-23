@@ -1,3 +1,61 @@
+// .bg-img-home{
+//   background-image: url('../media/birra.jpeg');
+//   background-size: cover;
+//   background-position: center center;
+// }
+
 .fab{
   font-size: 1.7rem;
+}
+
+.main__galeria{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  flex-basis: 1;
+  img{
+    min-height:auto;
+    height: auto;
+    min-width: 175px;
+    width: 100%; 
+    transform: scale(0.9);
+    flex-shrink: 1;
+  }
+}
+
+.main__galeria__samofotos{
+  margin: 0px;
+}
+
+.quienes_somos{
+  background-color: rgba(255, 255, 255, 0.788);
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 0 10px 10px 0;
+  width: 95%;
+}
+
+.invitacion{
+  background: #001514b7;
+  width: 50%;
+  margin: auto;
+  margin-top: 20px;
+  border-radius: 5px;
+  font-size: 1.4rem;
+  padding: 10px;
+}
+
+.samobeers{
+  margin-top: 30px;
+  background-color: $dark;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.tarjeta-samoyedo-home{
+  margin: 20px 0
+}
+
+.cta{
+  padding: 10px;
 }

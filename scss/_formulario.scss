@@ -1,11 +1,32 @@
 /* FORMULARIOS */
 @import 'opsReutilizables';
 
+*{
+  // border: 1px red dotted;
+}
+
 .formulario__bloque{
   background: rgba(226, 255, 213, 0.84);
   padding: 10px;
   border-radius: 5px;
   margin-top: 20px;
+}
+
+.formulario__bloque--home{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 78vh;
+  .btn--fondo5{
+    color: $alert
+  }
+}
+
+.login-home{
+  @include fl-col;
+  height: 80%;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .formulario__contacto__container{

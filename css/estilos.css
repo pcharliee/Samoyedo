@@ -17,7 +17,7 @@ body {
   position: sticky; }
 
 .row-margin-reset {
-  margin: 0 0; }
+  margin: 0; }
 
 ::-webkit-scrollbar {
   width: 5px; }
@@ -31,6 +31,50 @@ body {
 
 .fab {
   font-size: 1.7rem; }
+
+.main__galeria {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  flex-basis: 1; }
+  .main__galeria img {
+    min-height: auto;
+    height: auto;
+    min-width: 175px;
+    width: 100%;
+    transform: scale(0.9);
+    flex-shrink: 1; }
+
+.main__galeria__samofotos {
+  margin: 0px; }
+
+.quienes_somos {
+  background-color: rgba(255, 255, 255, 0.788);
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 0 10px 10px 0;
+  width: 95%; }
+
+.invitacion {
+  background: #001514b7;
+  width: 50%;
+  margin: auto;
+  margin-top: 20px;
+  border-radius: 5px;
+  font-size: 1.4rem;
+  padding: 10px; }
+
+.samobeers {
+  margin-top: 30px;
+  background-color: #001514;
+  border-radius: 10px;
+  padding: 20px; }
+
+.tarjeta-samoyedo-home {
+  margin: 20px 0; }
+
+.cta {
+  padding: 10px; }
 
 /* NAV BAR */
 .navbar {
@@ -377,23 +421,6 @@ body else {
   background-image: url("../media/laguna-de-mucubaji-magica.jpg");
   background-position: center bottom; }
 
-/* GALERIA */
-.main__galeria {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-  flex-basis: 1; }
-  .main__galeria img {
-    min-height: auto;
-    height: auto;
-    min-width: 175px;
-    width: 100%;
-    transform: scale(0.9);
-    flex-shrink: 1; }
-
-.main__galeria__samofotos {
-  margin: 0px; }
-
 /* FORMULARIOS */
 body else {
   background-image: linear-gradient(to bottom, #314e52, #001514); }
@@ -485,6 +512,21 @@ body else {
   padding: 10px;
   border-radius: 5px;
   margin-top: 20px; }
+
+.formulario__bloque--home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 78vh; }
+  .formulario__bloque--home .btn--fondo5 {
+    color: #c1292e; }
+
+.login-home {
+  display: flex;
+  flex-direction: column;
+  height: 80%;
+  justify-content: space-between;
+  align-items: center; }
 
 .formulario__contacto__container {
   width: 60vw;
@@ -1264,9 +1306,13 @@ body else {
     display: block;
     width: 70px;
     height: auto; }
-  .txt-gallery {
-    display: flex;
-    flex-direction: column; }
+  .quienes_somos {
+    width: 100%;
+    border-radius: 5px; }
+  .tarjeta-samoyedo-home {
+    margin: 20px 0; }
+  .formulario__bloque--home {
+    height: 40vh; }
   .foto {
     width: 10px;
     height: 10px; }
@@ -1286,7 +1332,9 @@ body else {
     width: 80vw;
     font-size: 0.8rem; }
   .contacto__texto {
-    font-size: 0.8rem; } }
+    font-size: 0.8rem; }
+  .login-home {
+    height: 100%; } }
 
 /*iPad Pro*/
 @media only screen and (min-width: 990px) and (max-width: 1086px) {
@@ -1318,7 +1366,15 @@ body else {
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
-    justify-content: space-around; } }
+    justify-content: space-around; }
+  .samobeers {
+    width: 100vw; }
+  .formulario__bloque--home {
+    height: 21vh; }
+  .login-home {
+    height: 100%; }
+  .formulario--home {
+    position: static; } }
 
 /*iPad Comun*/
 @media only screen and (min-width: 768px) and (max-width: 1000px) {
@@ -1343,7 +1399,13 @@ body else {
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
-    justify-content: space-around; } }
+    justify-content: space-around; }
+  .samobeers {
+    width: 100vw; }
+  .formulario__bloque--home {
+    height: 39vh; }
+  .formulario--home {
+    position: static; } }
 
 /*Pantallas grandes*/
 @media only screen and (min-width: 1500px) {
