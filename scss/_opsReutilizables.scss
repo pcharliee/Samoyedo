@@ -47,7 +47,8 @@ $coloresBtn: (
   fondo: $hover,
   fondo2: $alert,
   fondo3: $confirm,
-  fondo4: $dark
+  fondo4: $dark,
+  fondo5: rgba(0,0,0,0)
 );
 
 @each $fondo, $color in $coloresBtn{

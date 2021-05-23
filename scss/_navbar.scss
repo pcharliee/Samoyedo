@@ -1,4 +1,8 @@
 /* NAV BAR */ 
+*{
+  // border: 1px red dotted
+}
+
 .navbar {
   background-color: $fondo;
   z-index: 9999;
@@ -6,7 +10,10 @@
   a{ 
     color: $fondo
   }
-  width: 100vw
+}
+
+.navbar-nav{
+  text-align: center;
 }
 
 .navbar--index {
@@ -34,7 +41,7 @@
 
 .navbar__logo__samo-logo{
   height: auto;
-  width: 350px;
+  width: 270px;
   min-width: 200px;
   max-width: 100%;
 }

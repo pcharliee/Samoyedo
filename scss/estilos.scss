@@ -28,6 +28,24 @@ body{
   position: sticky;
 }
 
+.row-margin-reset{
+  margin: 0 0;
+}
+
+::-webkit-scrollbar {
+  width:5px
+}
+
+::-webkit-scrollbar-track {
+  background-color: $fondo;
+}
+
+::-webkit-scrollbar-thumb{
+  background: rgba(0, 0, 0, 0.979);
+  border-radius: 10px;
+}
+
+@import 'index';
 @import 'navbar';
 @import 'txtSecciones';
 @import 'carousel';
@@ -41,3 +59,4 @@ body{
 @import 'opsReutilizables';
 @import 'mediaQueries';
 @import 'animation';
+@import 'contacto';

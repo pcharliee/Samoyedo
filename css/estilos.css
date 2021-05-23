@@ -16,13 +16,31 @@ body {
   position: relative;
   position: sticky; }
 
+.row-margin-reset {
+  margin: 0 0; }
+
+::-webkit-scrollbar {
+  width: 5px; }
+
+::-webkit-scrollbar-track {
+  background-color: #314e52; }
+
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.979);
+  border-radius: 10px; }
+
+.fab {
+  font-size: 1.7rem; }
+
 /* NAV BAR */
 .navbar {
   background-color: #314e52;
-  z-index: 9999;
-  width: 100vw; }
+  z-index: 9999; }
   .navbar a {
     color: #314e52; }
+
+.navbar-nav {
+  text-align: center; }
 
 .navbar--index {
   background-color: #314e52;
@@ -45,7 +63,7 @@ body {
 
 .navbar__logo__samo-logo {
   height: auto;
-  width: 350px;
+  width: 270px;
   min-width: 200px;
   max-width: 100%; }
 
@@ -158,6 +176,12 @@ body else {
   background-color: #001514;
   color: #f7f6e7; }
 
+.btn--fondo5 {
+  font-family: 'Oswald', Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  background-color: rgba(0, 0, 0, 0);
+  color: #f7f6e7; }
+
 .txt-white {
   font-family: 'Oswald', Arial, Helvetica, sans-serif;
   text-transform: uppercase;
@@ -232,8 +256,11 @@ body else {
   top: 128px;
   z-index: 2; }
 
-.stickyness--sidebar {
+.stickyness--signup {
   top: 122px; }
+
+.stickyness--sidebar {
+  top: 100px; }
 
 /* Carousel*/
 body else {
@@ -313,6 +340,12 @@ body else {
   font-family: 'Oswald', Arial, Helvetica, sans-serif;
   text-transform: uppercase;
   background-color: #001514;
+  color: #f7f6e7; }
+
+.btn--fondo5 {
+  font-family: 'Oswald', Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  background-color: rgba(0, 0, 0, 0);
   color: #f7f6e7; }
 
 .carou-img {
@@ -441,9 +474,21 @@ body else {
   background-color: #001514;
   color: #f7f6e7; }
 
+.btn--fondo5 {
+  font-family: 'Oswald', Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  background-color: rgba(0, 0, 0, 0);
+  color: #f7f6e7; }
+
 .formulario__bloque {
-  background: rgba(226, 255, 213, 0.973);
-  padding: 10px; }
+  background: rgba(226, 255, 213, 0.84);
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 20px; }
+
+.formulario__contacto__container {
+  width: 60vw;
+  margin: auto; }
 
 .legend {
   font-family: 'Oswald', Arial, Helvetica, sans-serif;
@@ -479,26 +524,38 @@ body else {
     width: 100%;
     font-size: 0.9rem; }
 
+.signup-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.bg-img-signup {
+  background-image: url("../media/snow_grass-min.jpg");
+  background-size: cover;
+  background-position: center bottom; }
+
 .userInfo {
   height: auto;
   display: flex;
   flex-direction: column;
   text-align: center;
-  width: 70%; }
+  width: 100%; }
   .userInfo input {
-    width: 100%; }
+    width: 70%;
+    margin: auto; }
 
 .buttons {
   display: flex;
-  width: 240px;
+  width: 180px;
   flex-direction: row;
   justify-content: space-evenly;
   margin: 10px 0; }
   .buttons input :hover {
     cursor: pointer; }
 
-.formulario__bloque--altiancho {
-  height: 350px; }
+.buttons--signup {
+  width: 200px;
+  justify-content: space-between; }
 
 .formulario__sidebar__beneficios__detalles p {
   font-size: 0.8rem; }
@@ -507,8 +564,22 @@ body else {
   margin-top: 10px;
   font-size: 0.9 rem; }
 
+.form-switch {
+  border: 1px red dotted;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
 .modal {
-  z-index: 10000; }
+  z-index: 100000; }
+
+.boton__modal {
+  height: auto;
+  width: auto;
+  font-size: 0.8rem; }
+
+.modal-body {
+  padding: 0 10px; }
 
 /* CALL TO ACTION */
 .cta {
@@ -609,6 +680,12 @@ body else {
   background-color: #001514;
   color: #f7f6e7; }
 
+.btn--fondo5 {
+  font-family: 'Oswald', Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  background-color: rgba(0, 0, 0, 0);
+  color: #f7f6e7; }
+
 .txt-white {
   font-family: 'Oswald', Arial, Helvetica, sans-serif;
   text-transform: uppercase;
@@ -683,8 +760,11 @@ body else {
   top: 128px;
   z-index: 2; }
 
-.stickyness--sidebar {
+.stickyness--signup {
   top: 122px; }
+
+.stickyness--sidebar {
+  top: 100px; }
 
 footer {
   padding: 0;
@@ -698,7 +778,8 @@ footer {
   justify-content: space-between;
   align-items: flex-start;
   height: auto;
-  font-size: 0.8rem; }
+  font-size: 0.8rem;
+  background-color: #212529; }
   footer a {
     text-decoration: none;
     color: #f7f6e7; }
@@ -720,22 +801,6 @@ footer {
   border-radius: 50%;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 1px 20px 0 rgba(0, 0, 0, 0.19); }
 
-.fa-instagram {
-  background: #125688;
-  color: white; }
-
-.fa-facebook {
-  background: #3B5998;
-  color: white; }
-
-.rrss ul {
-  display: flex;
-  flex-direction: row;
-  padding: 0px; }
-  .rrss ul li {
-    margin-right: 5px;
-    list-style: none; }
-
 .footer__informacion__contacto {
   display: flex;
   flex-flow: column;
@@ -751,17 +816,22 @@ footer {
   flex-flow: column nowrap;
   font-size: 1.3rem;
   align-items: center;
-  margin-top: 15px; }
+  margin-top: 15px;
+  background-color: rgba(243, 243, 243, 0.7);
+  border-radius: 5px;
+  width: 80%;
+  margin: auto;
+  padding: 10px; }
 
 .perfil__header__antiguedad {
   font-family: 'Oswald', sans-serif;
   font-size: 0.8rem; }
 
 .perfil__acordion__items {
-  background-color: lightblue;
+  background-color: rgba(226, 255, 213, 0.664);
   font-family: 'Oswald', 'Lucida Sans', 'Lucida Sans Regular', Verdana, sans-serif;
   color: #314e52;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   text-transform: uppercase; }
 
 .perfil__samopuntos__fondo {
@@ -769,10 +839,26 @@ footer {
   .perfil__samopuntos__fondo p {
     color: #f7f6e7;
     font-family: 'Oswald', 'Lucida Sans', 'Lucida Sans Regular', Verdana, sans-serif;
-    font-size: 2rem; }
+    font-size: 1.5rem; }
 
 .accordion-button:not(.collapsed) {
-  color: #001514; }
+  color: #f7f6e7;
+  background-color: #001514; }
+
+.accordion-button:focus {
+  border: #001514;
+  box-shadow: none; }
+
+.perfil {
+  padding: 20px 50px; }
+
+.bg-img-perfil {
+  background-image: url("../media/beer_background.jpg");
+  background-size: cover;
+  background-position: right top; }
+
+a:hover {
+  color: #f7f6e7; }
 
 /*SIDEBAR PRODUCTOS*/
 body else {
@@ -854,24 +940,33 @@ body else {
   background-color: #001514;
   color: #f7f6e7; }
 
+.btn--fondo5 {
+  font-family: 'Oswald', Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  background-color: rgba(0, 0, 0, 0);
+  color: #f7f6e7; }
+
 .col-md-2 {
-  padding: 0;
-  width: auto; }
+  padding: 0; }
 
 .sidebar__menu {
   display: flex;
   flex-direction: column;
-  width: 220px;
-  height: 81vh;
+  height: 84vh;
   align-items: center;
   justify-content: space-evenly;
-  background-color: #001514; }
+  border-radius: 5px; }
+
+.sidebar__menu--perfil {
+  height: 86vh;
+  padding: 20px 0; }
 
 .productos {
   justify-content: center; }
 
 .productos__titulo__fondo {
-  background-image: linear-gradient(to right, #001514, rgba(10, 87, 10, 0)); }
+  background-image: linear-gradient(to right, #212529, rgba(10, 87, 10, 0));
+  font-size: 1.5rem; }
 
 .card-body {
   display: flex;
@@ -881,7 +976,7 @@ body else {
   max-height: 250px; }
 
 .sidebar__list {
-  height: 55vh;
+  height: 50vh;
   justify-content: space-around;
   flex-wrap: nowrap; }
 
@@ -891,7 +986,7 @@ body else {
   justify-content: space-evenly; }
 
 .tarjeta {
-  height: auto;
+  height: 380px;
   width: 230px;
   background-color: #f7f6e7;
   border-radius: 3%;
@@ -901,7 +996,7 @@ body else {
   justify-content: center; }
 
 .tarjeta__body {
-  height: 350px;
+  height: 365px;
   width: 215px;
   background-color: #f7f6e7;
   border-radius: 3%;
@@ -914,14 +1009,14 @@ body else {
   margin: 0; }
 
 .tarjeta__body__img {
-  background-color: lightblue;
   width: 150px;
-  height: auto;
-  border-radius: 3%; }
+  height: auto; }
+  .tarjeta__body__img img {
+    border-radius: 5px; }
 
 .tarjeta__body__desc {
   width: 180px;
-  font-size: 0.8rem; }
+  font-size: 0.75rem; }
   .tarjeta__body__desc p {
     margin: 0; }
 
@@ -941,18 +1036,109 @@ body else {
 .tarjeta__body__boton :hover:before {
   content: "Agregar al carrito"; }
 
+.badge--productos {
+  font-size: 0.5rem;
+  padding: 3px;
+  margin-left: 5px; }
+
+.tarjeta__body__titulo--exclusivo {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center; }
+
+.flip-card {
+  background-color: transparent;
+  width: 200px;
+  height: 360px;
+  perspective: 1000px; }
+
+.flip-card-inner {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d; }
+  .flip-card-inner img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px; }
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg); }
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  /* Safari */
+  backface-visibility: hidden;
+  border-radius: 10px; }
+
+.flip-card-front {
+  background-color: #bbb;
+  color: black; }
+
+.flip-card-back {
+  background-color: #3a484d;
+  color: white;
+  transform: rotateY(180deg); }
+
+.flip-card-back-body {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  padding: 20px; }
+  .flip-card-back-body h5 {
+    margin: 0; }
+  .flip-card-back-body p {
+    font-family: 'Oswald', Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    margin: 5px; }
+  .flip-card-back-body span {
+    font-size: 0.9rem; }
+  .flip-card-back-body .flip-card-back-body-ibu_abv {
+    display: flex;
+    flex-flow: row nowrap;
+    width: 80%;
+    justify-content: space-between;
+    margin: 10px 0; }
+
 /* CURSOS */
-.cursos {
+.productos__bloque__cursos {
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-around; }
+  align-items: center;
+  justify-content: space-around;
+  padding: 30px; }
 
 .cta__fondo {
   background-color: #f7f6e7; }
 
 .cta__fondo__img {
-  width: 80vh;
+  width: 70vh;
   height: auto; }
+
+.cursos__button__cta {
+  width: auto;
+  margin: 10px auto; }
+
+.tarjeta__body__desc--cursos {
+  font-size: 0.9rem; }
+
+.bg-img-cursos {
+  background-image: url("../media/snow_grass-min.jpg");
+  background-size: cover;
+  background-position: center bottom; }
+
+.btn--fondo4:hover {
+  color: #e7e6e1; }
+
+.btn--fondo5:hover {
+  color: #c1292e; }
 
 body else {
   background-image: linear-gradient(to bottom, #314e52, #001514); }
@@ -1033,6 +1219,12 @@ body else {
   background-color: #001514;
   color: #f7f6e7; }
 
+.btn--fondo5 {
+  font-family: 'Oswald', Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  background-color: rgba(0, 0, 0, 0);
+  color: #f7f6e7; }
+
 /* MEDIA QUERIES */
 @media only screen and (max-width: 668px) {
   .main__historia__titulo {
@@ -1052,14 +1244,15 @@ body else {
     text-justify: inter-cluster;
     font-family: 'Oswald', Arial, Helvetica, sans-serif;
     color: #001514;
-    font-size: 1.1rem; } }
+    font-size: 1.1rem; }
+  .perfil {
+    padding: 20px; } }
 
 @media only screen and (min-width: 920px) {
   #title {
     display: none; }
-  .navbar__logo__samo-logo {
-    width: 350px;
-    height: auto; } }
+  .boton__modal {
+    display: none; } }
 
 /*iPhone 6/7/8*/
 @media only screen and (max-width: 767px) {
@@ -1088,30 +1281,99 @@ body else {
   .carou-img, .carou-img2, .carou-img3, .carou-img4 {
     height: 50vh; }
   .tarjeta {
-    margin: 15px 0; } }
+    margin: 15px 0; }
+  .formulario__contacto__container {
+    width: 80vw;
+    font-size: 0.8rem; }
+  .contacto__texto {
+    font-size: 0.8rem; } }
 
 /*iPad Pro*/
 @media only screen and (min-width: 990px) and (max-width: 1086px) {
-  .stickyness--sidebar {
-    top: 116px; }
   .carou-img, .carou-img2, .carou-img3, .carou-img4 {
-    height: 50vh; } }
+    height: 50vh; }
+  .sidebar__menu {
+    height: 93vh; }
+  .sidebar__menu--perfil {
+    height: 81vh; }
+  .sidebar__menu--signup {
+    height: 80vh; }
+  .screen-setter-contacto {
+    height: 79vh;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center; }
+  .bg-img-perfil {
+    height: 80vh;
+    margin: auto; }
+  .perfil {
+    margin: auto; }
+  .bg-img-cursos {
+    height: 44vh; }
+  .cursos_ayuda {
+    margin-top: 40px; }
+  .screen-setter-signup {
+    height: 80vh;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: space-around; } }
 
 /*iPad Comun*/
 @media only screen and (min-width: 768px) and (max-width: 1000px) {
   .boton__modal {
     display: none; }
   .sidebar__menu {
-    height: 81vh; }
+    height: 90vh; }
+  .sidebar__menu--perfil {
+    height: 71vh; }
   .carou-img, .carou-img2, .carou-img3, .carou-img4 {
-    height: 50vh; } }
+    height: 50vh; }
+  .sidebar__menu--signup {
+    height: 71vh; }
+  .screen-setter-contacto {
+    height: 71vh;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: space-around; }
+  .screen-setter-signup {
+    height: 71vh;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: space-around; } }
 
 /*Pantallas grandes*/
 @media only screen and (min-width: 1500px) {
   .sidebar__menu {
     height: 90vh; }
   .sidebar__list {
-    font-size: 1.2rem; } }
+    font-size: 1.2rem; }
+  .boton__modal {
+    display: none; }
+  .sidebar__list {
+    height: 45vh; }
+  .sidebar__menu--signup {
+    height: 70vh; }
+  .sidebar__menu--perfil {
+    height: 70vh; }
+  .screen-setter-contacto {
+    height: 70vh;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: space-around; }
+  .formulario--signup {
+    width: 60%;
+    margin: auto; }
+  .screen-setter-signup {
+    height: 70vh;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: space-around; } }
 
 /* ANIMACIONES */
 .fade-in {
@@ -1151,3 +1413,97 @@ body else {
   100% {
     color: #001514;
     opacity: 1; } }
+
+/* CONTACTO */
+body else {
+  background-image: linear-gradient(to bottom, #314e52, #001514); }
+
+/* BUCLES */
+.card--1 {
+  background-color: lightblue; }
+
+.card--2 {
+  background-color: #576c73; }
+
+.card--3 {
+  background-color: #3a484d; }
+
+.fade-in-1 {
+  animation: fadeIn 3s ease 1s forwards;
+  -o-animation: fadeIn 3s ease 1s forwards;
+  -moz-animation: fadeIn 3s ease 1s forwards;
+  -webkit-animation: fadeIn 3s ease 1s forwards; }
+
+.fade-in-2 {
+  animation: fadeIn 3s ease 2s forwards;
+  -o-animation: fadeIn 3s ease 2s forwards;
+  -moz-animation: fadeIn 3s ease 2s forwards;
+  -webkit-animation: fadeIn 3s ease 2s forwards; }
+
+.fade-in-3 {
+  animation: fadeIn 3s ease 3s forwards;
+  -o-animation: fadeIn 3s ease 3s forwards;
+  -moz-animation: fadeIn 3s ease 3s forwards;
+  -webkit-animation: fadeIn 3s ease 3s forwards; }
+
+.fade-in-4 {
+  animation: fadeIn 3s ease 4s forwards;
+  -o-animation: fadeIn 3s ease 4s forwards;
+  -moz-animation: fadeIn 3s ease 4s forwards;
+  -webkit-animation: fadeIn 3s ease 4s forwards; }
+
+.fade-in-5 {
+  animation: fadeIn 3s ease 5s forwards;
+  -o-animation: fadeIn 3s ease 5s forwards;
+  -moz-animation: fadeIn 3s ease 5s forwards;
+  -webkit-animation: fadeIn 3s ease 5s forwards; }
+
+.fade-in-6 {
+  animation: fadeIn 3s ease 6s forwards;
+  -o-animation: fadeIn 3s ease 6s forwards;
+  -moz-animation: fadeIn 3s ease 6s forwards;
+  -webkit-animation: fadeIn 3s ease 6s forwards; }
+
+.fade-in-7 {
+  animation: fadeIn 3s ease 7s forwards;
+  -o-animation: fadeIn 3s ease 7s forwards;
+  -moz-animation: fadeIn 3s ease 7s forwards;
+  -webkit-animation: fadeIn 3s ease 7s forwards; }
+
+.btn--fondo {
+  font-family: 'Oswald', Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  background-color: #f2a154;
+  color: #f7f6e7; }
+
+.btn--fondo2 {
+  font-family: 'Oswald', Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  background-color: #c1292e;
+  color: #f7f6e7; }
+
+.btn--fondo3 {
+  font-family: 'Oswald', Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  background-color: #5b8c5a;
+  color: #f7f6e7; }
+
+.btn--fondo4 {
+  font-family: 'Oswald', Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  background-color: #001514;
+  color: #f7f6e7; }
+
+.btn--fondo5 {
+  font-family: 'Oswald', Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  background-color: rgba(0, 0, 0, 0);
+  color: #f7f6e7; }
+
+.bg-img-contacto {
+  background-image: url("../media/montanas.jpg");
+  background-size: cover; }
+
+.contacto__texto {
+  background-color: rgba(243, 243, 243, 0.7);
+  border-radius: 5px; }

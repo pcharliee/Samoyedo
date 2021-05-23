@@ -3,14 +3,34 @@ https://pcharliee.github.io/Samoyedo/
 
 to-do:
 
-[] -- call to action button en la seccion de cursos
-[] -- Quitar el text-decoration del anchor de RRSS
-[] -- centrar input del formulario en el homepage
-[] -- incluir favicon
-[] -- links del sidebar en perfil
 [] -- rediseno del homepage
   [] -- imagen de fondo estatica mientras scrolleas (?)
   [] -- tarjetas con info de la cerveza atras
+[] -- espaciados en todos los HTML
+  [x] == revisar footer en pantallas gigantes (queda corto)
+  [x] == signup
+[] -- modal de inicio
+[] -- rediseno del footer
+[x] -- cambiar los iconos de RRSS
+[x] -- revisar el redireccionamiento a la seccion productos
+[x] == productos > [x] == cambiarle el color a bg-dark
+[x] -- revisar tarjetas a 884px de ancho (margin top?)
+[x] -- revisar sidebars en todas las medidas
+[x] -- hacer menos ancho el formulario en 'contacto' y darle margin bottom
+[x] -- padding de 'perfil'
+[x] -- footer a bg-dark
+[x] -- centrar call to action button en la seccion de cursos
+[x] -- links del sidebar en perfil que redireccionen bien
+[x] -- terminar seccion productos
+[x] -- bajarle el tamano al navbar
+[x] -- sacar seccion 'recetas' de todos los HTML
+[x] -- incluir favicon
+[x] -- scroll-bar
+[x] -- botones de samo-fichaje
+[x] -- cambiarle el color a los formularios y darle border radius (?)
+[x] -- cambiar h3 de productos para que combinen con el sidebar
+[x] -- centrar input del formulario en el homepage
+[x] -- deshabilitar la 'animacion' de las tarjetas en productos 
 [x] -- margen al texto en la pagina de 'contacto'
 [x] -- deprecation warning para el @for de .card en _opsReutilizables.scss
 [x] -- mejorar el justificado de los textos en productos.html
