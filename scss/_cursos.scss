@@ -1,8 +1,10 @@
 /* CURSOS */ 
-.cursos{
+.productos__bloque__cursos{
   display: flex;
   flex-flow: row wrap;
+  align-items: center;
   justify-content: space-around;
+  padding: 30px;
 }
 
 .cta__fondo{
@@ -10,6 +12,29 @@
 }
 
 .cta__fondo__img {
-  width: 80vh;
+  width: 70vh;
   height: auto;
+}
+
+.cursos__button__cta{
+  width: auto;
+  margin: 10px auto;
+}
+
+.tarjeta__body__desc--cursos{
+  font-size: 0.9rem;
+}
+
+.bg-img-cursos{
+  background-image: url('../media/snow_grass-min.jpg');
+  background-size: cover;
+  background-position: center bottom;
+}
+
+.btn--fondo4:hover{
+  color: $gris;
+}
+
+.btn--fondo5:hover{
+  color: $alert;
 }

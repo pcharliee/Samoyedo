@@ -32,6 +32,10 @@
       font-size: 1.1rem;
     }
   }
+  
+  .perfil{
+    padding: 20px
+  }
 } 
 
 @media only screen and (min-width: 920px) {
@@ -39,9 +43,8 @@
     display: none;
   }
   
-  .navbar__logo__samo-logo{
-    width: 350px;
-    height: auto;
+  .boton__modal {
+    display: none;
   }
 }
 /*iPhone 6/7/8*/
@@ -85,24 +88,75 @@
   .legend{
     font-size: 1.5rem;
   }
-
+  
   .carou-img, .carou-img2, .carou-img3, .carou-img4 {
     height: 50vh;
   }
-
+  
   .tarjeta {
     margin: 15px 0;
+  }
+  
+  .formulario__contacto__container{
+    width: 80vw;
+    font-size: 0.8rem;
+  }
+  
+  .contacto__texto{
+    font-size: 0.8rem;
   }
 }
 
 /*iPad Pro*/
 @media only screen and (min-width: 990px) and (max-width: 1086px){
-  .stickyness--sidebar{
-    top:116px;
-  }
-
+  
   .carou-img, .carou-img2, .carou-img3, .carou-img4 {
     height: 50vh;
+  }
+  
+  .sidebar__menu{
+    height: 93vh;
+  }
+  
+  .sidebar__menu--perfil{
+    height: 81vh;
+  }
+  
+  .sidebar__menu--signup{
+    height: 80vh;
+  }
+  
+  .screen-setter-contacto{
+    height: 79vh;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .bg-img-perfil {
+    height: 80vh;
+    margin: auto;
+  }
+  
+  .perfil{
+    margin: auto;
+  }
+  
+  .bg-img-cursos{
+    height: 44vh;
+  }
+  
+  .cursos_ayuda{
+    margin-top: 40px;
+  }
+  
+  .screen-setter-signup{
+    height: 80vh;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: space-around;
   }
 }
 
@@ -111,23 +165,84 @@
   .boton__modal {
     display: none;
   }
-
+  
   .sidebar__menu {
-    height: 81vh;
+    height: 90vh;
   }
-
+  
+  .sidebar__menu--perfil {
+    height: 71vh;
+  }
+  
   .carou-img, .carou-img2, .carou-img3, .carou-img4 {
     height: 50vh;
+  }
+  
+  .sidebar__menu--signup{
+    height: 71vh;
+  }
+  
+  .screen-setter-contacto{
+    height: 71vh;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .screen-setter-signup{
+    height: 71vh;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: space-around;
   }
 }
 
 /*Pantallas grandes*/
 @media only screen and (min-width: 1500px) {
-  .sidebar__menu {
+  .sidebar__menu{
     height: 90vh;
   }
-
+  
   .sidebar__list {
     font-size: 1.2rem;
+  }
+  
+  .boton__modal {
+    display: none;
+  }
+  
+  .sidebar__list {
+    height: 45vh;
+  }
+  
+  .sidebar__menu--signup{
+    height: 70vh;
+  }
+  
+  .sidebar__menu--perfil{
+    height: 70vh;
+  }
+  
+  .screen-setter-contacto{
+    height: 70vh;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  .formulario--signup{
+    width: 60%;
+    margin: auto;
+  }
+
+  .screen-setter-signup{
+    height: 70vh;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: space-around;
   }
 }

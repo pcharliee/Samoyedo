@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="description" content="Samoyedo Brewery, brindando alegrías desde 2019. Contamos con todos los insumos y equipamiento necesarios para que arranques a cocinar tu cerveza hoy mismo. Puedes retirar en nuestros locales o te lo enviamos a tu casa">
   <meta name="keywords" content="CERVEZA, ARTESANAL, CASERA, LEVADURAS, CURSOS, MALTAS, RECETAS, MICROBREWERY, INSUMOS, OLLAS, AIRLOCK, LUPULO">
+  <link rel="shortcut icon" type="image/png" href="media/favicon.png">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
   rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
@@ -41,7 +42,6 @@
                 <li><a href="#maltas">Maltas</a></li>
                 <li><a href="#lupulos">Lúpulos</a></li>
                 <li><a href="#equipamiento">Equipamiento</a></li>
-                <li><a href="#recetas">Recetas</a></li>
                 <li><a href="#cervezas">Cervezas</a></li>
               </ul>
             </li>
@@ -63,8 +63,8 @@
   </nav>
   <div class="container-fluid">
     <div class="row">
-      <div class="col-md-2" id='sidebar-menu'>
-        <div class="d-flex flex-column p-3 text-white sidebar__menu stickyness stickyness--sidebar">
+      <div class="col-md-3 col-lg-2 px-0 mx-0" id='sidebar-menu'>
+        <div class="d-flex flex-column text-white sidebar__menu bg-dark stickyness stickyness--sidebar">
           <ul class="nav nav-pills d-flex flex-column sidebar__list">
             <li class="nav-item">
               <a href="productos.html#levaduras" class="nav-link txt-white">Levaduras</a>
@@ -79,13 +79,9 @@
               <a href="#equipamiento" class="nav-link txt-white">Equipamiento</a>
             </li>
             <li>
-              <a href="#recetas" class="nav-link txt-white">Recetas</a>
-            </li>
-            <li>
               <a href="#cervezas" class="nav-link txt-white">Samobeers</a>
             </li>
           </ul>
-          <hr>
           <div class="dropdown">
             <a href="#" class="d-flex align-items-center text-white text-decoration-none dropdown-toggle" id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="false">
               <img src="media/logo2.png" alt="mdo" width="32" height="32" class="rounded-circle me-2">
@@ -100,7 +96,7 @@
           </div>
         </div>
       </div>
-      <main class="col-md-8 col-sm-12 col-lg-9">
+      <main class="col-md-9 col-sm-12 col-lg-10">
         <aside class="row productos"> 
           <h3 class='txt-white productos__titulo__fondo' id='levaduras'>Levaduras</h3>
           <section class="productos__bloque m-3">
@@ -116,11 +112,11 @@
                   <p>Ideal para estilos Kölsch. Posee un carácter natural que ofrece sutiles aromas frutales. <strong>Libre de gluten</strong></p>
                 </div>
                 <div class="tarjeta__body__boton">
-                  <a href="#" class="btn txt-white"><span>$350,00</span></a>
+                  <button class="btn btn--fondo3 txt-white"><span>$350,00</span></button>
                 </div>
               </div>
             </article>
-            <article class="tarjeta card--3">
+            <article class="tarjeta card--3"  id="munich">
               <div class="tarjeta__body">
                 <div class="tarjeta__body__img">
                   <img src="media/levaduras/german-wheat.jpg" class="img-fluid"  alt="Munich Classic yeast">
@@ -132,11 +128,11 @@
                   <p>Se adapta perfectamente a la elaboración de cervezas de trigo. Aporta ésteres afrutados muy aromáticos y fenoles a plátano y clavo de olor</p>
                 </div>
                 <div class="tarjeta__body__boton">
-                  <a href="#" class="btn txt-white"><span>$350,00</span></a>
+                  <button class="btn btn--fondo3 txt-white"><span>$350,00</span></button>
                 </div>
               </div>
             </article>
-            <article class="tarjeta card--3">
+            <article class="tarjeta card--3" id="kveik">
               <div class="tarjeta__body">
                 <div class="tarjeta__body__img">
                   <img src="media/levaduras/kveik yeast.jpg" class="img-fluid"  alt="Kveik yeast">
@@ -148,7 +144,7 @@
                   <p>Levadura de alta tolerancia a la temperatura de fermentación. Ésteres a ánana, manzana. Famosa por no generar 'off-flavors'</p>
                 </div>
                 <div class="tarjeta__body__boton">
-                  <a href="#" class="btn txt-white"><span>$350,00</span></a>
+                  <button class="btn btn--fondo3 txt-white"><span>$350,00</span></button>
                 </div>
               </div>
             </article>
@@ -158,7 +154,7 @@
             <article class="tarjeta card--3">
               <div class="tarjeta__body">
                 <div class="tarjeta__body__img">
-                  <img src="media/maltas/mix-maltas.jpg" class="img-fluid"  alt="maltas">
+                  <img src="media/maltas/mix-maltas.jpg" class="img-fluid" alt="maltas">
                 </div>
                 <div class="tarjeta__body__titulo textForm">
                   <h5>Prearmado de maltas</h5>
@@ -167,14 +163,14 @@
                   <p>Te armamos el mix de maltas ideal para el estilo que quieras cocinar.<br> <em>Recomendado para cocineros amateurs</em></p>
                 </div>
                 <div class="tarjeta__body__boton">
-                  <a href="#" class="btn txt-white"><span>$1.850,00</span></a>
+                  <button class="btn btn--fondo3 txt-white"><span>$1.850,00</span></button>
                 </div>
               </div>
             </article>
             <article class="tarjeta card--3">
               <div class="tarjeta__body">
                 <div class="tarjeta__body__img">
-                  <img src="media/maltas/maltas-varias.jpg" class="img-fluid"  alt="maltas">
+                  <img src="media/maltas/maltas-varias.jpg" class="img-fluid" alt="maltas">
                 </div>
                 <div class="tarjeta__body__titulo textForm">
                   <h5>Arma tu mezcla</h5>
@@ -183,73 +179,179 @@
                   <p>Selecciona a granel las maltas y cebadas para tu cerveza.<br> <em>Recomendado para cocineros experimentados</em></p>
                 </div>
                 <div class="tarjeta__body__boton">
-                  <a href="#" class="btn txt-white"><span>$2.100,00</span></a>
+                  <button class="btn btn--fondo3 txt-white"><span>$2.100,00</span></button>
                 </div>
               </div>
             </article>
           </section>
-          <!-- <article class="card m-1 productos__card">
-          <article class="card card--3 mb-3 productos__card--vertical">
-            <div class="row g-0">
-              <div class="card" style="width: 20rem;">
-                <img src="media/maltas/mix-maltas.jpg" class="card-img-top" alt="maltas">
-                <div class="card-body card-body--vertical">
-                  <h5 class="card-title text-center">Preparado de maltas</h5>
-                  <p class="card-text">Te armamos el mix de maltas ideal para el estilo que quieras cocinar.<br> <em>Recomendado para cocineros amateurs</em></p>
-                  <a href="#" class="btn btn-warning">Agregar al carrito</a>
-                </div>
-              </div>
-            </div>
-          </article>
-          <article class="card--3 mb-3 productos__card--vertical">
-            <div class="row g-0">
-              <div class="card" style="width: 20rem;">
-                <img src="media/maltas/maltas-varias.png" class="card-img-top" alt="mezcla de maltas">
-                <div class="card-body card-body--vertical">
-                  <h5 class="card-title text-center">Arma tu mezcla de maltas</h5>
-                  <p class="card-text">Selecciona a granel las maltas y cebadas para tu cerveza.<br> <em>Recomendado para cocineros experimentados</em></p>
-                  <a href="#" class="btn btn-warning">Agregar al carrito</a>
-                </div>
-              </div>
-            </div>
-          </article>
           <h3 class='txt-white productos__titulo__fondo' id='lupulos'>Lúpulos</h3>
-          <article class="card card--3 mb-3 productos__card--vertical">
-            <div class="row g-0">
-              <div class="card" style="width: 20rem;">
-                <img src="media/lupulos/lupulo_flor.jpg" class="card-img-top" alt="flor lupulo">
-                <div class="card-body card-body--vertical">
-                  <h5 class="card-title text-center">Lúpulos en flor <span class="badge rounded-pill bg-dark text-light">Exclusivo</span> </h5>
-                  <p class="card-text">Lúpulos en flor para tu cocción.<br><em>Disponibles: Cascade, Chinook, Mosaic, Citra</em></p>
-                  <a href="#" class="btn btn-warning">Agregar al carrito</a>
+          <section class="productos__bloque m-3">
+            <article class="tarjeta card--3">
+              <div class="tarjeta__body">
+                <div class="tarjeta__body__img">
+                  <img src="media/lupulos/lupulo_flor.jpg" class="img-fluid" alt="lupulo en flor">
+                </div>
+                <div class="tarjeta__body__titulo textForm">
+                  <div class="tarjeta__body__titulo--exclusivo">
+                    <h5 class="text-center">Lúpulos en flor</h5>
+                    <span class="badge--productos rounded-pill bg-dark text-light">Exclusivo</span>
+                  </div>
+                </div>
+                <div class="tarjeta__body__desc text-center">
+                  <p>Lúpulos en flor para tu cocción.<br><em>Disponibles: Cascade, Chinook, Mosaic, Citra</em></p>
+                </div>
+                <div class="tarjeta__body__boton">
+                  <button class="btn btn--fondo3 txt-white"><span>$1.850,00</span></button>
                 </div>
               </div>
-            </div>
-          </article>
-          <article class="card--3 mb-3 productos__card--vertical">
-            <div class="row g-0">
-              <div class="card" style="width: 20rem;">
-                <img src="media/lupulos/pellets.jpg" class="card-img-top" alt="pellets lupulo">
-                <div class="card-body card-body--vertical">
-                  <h5 class="card-title text-center">Lúpulos en pellets</h5>
-                  <p class="card-text">La mejor selección de pellets para tu cocción<br><em>Disponibles: Centennial, Chinook, Citra, Galaxy, Willamette, Cascade, ...</em></p>
-                  <a href="#" class="btn btn-warning">Agregar al carrito</a>
+            </article>
+            <article class="tarjeta card--3">
+              <div class="tarjeta__body">
+                <div class="tarjeta__body__img">
+                  <img src="media/lupulos/pellets.jpg" class="img-fluid" alt="lupulo en pellets">
+                </div>
+                <div class="tarjeta__body__titulo textForm">
+                  <h5 class="text-center">Lúpulos en pellets</h5>
+                </div>
+                <div class="tarjeta__body__desc text-center">
+                  <p>La mejor selección de pellets para tu cocción<br><em>Disponibles: Centennial, Chinook, Citra, Galaxy, Willamette, Cascade, ...</em></p>
+                </div>
+                <div class="tarjeta__body__boton">
+                  <button class="btn btn--fondo3 txt-white"><span>$1.850,00</span></button>
                 </div>
               </div>
-            </div>
-          </article>
-          <article class='p-0' id=''>
-            <h3 class='txt-white productos__titulo__fondo' id='equipamiento'>Equipamiento</h3>
-            <p class='txt-white'>EN PROCESO...</p>
-          </article>
-          <article class='p-0' id=''>
-            <h3 class='txt-white productos__titulo__fondo' id='recetas'>Recetas</h3>
-            <p class='txt-white'>EN PROCESO...</p>
-          </article>
-          <article class='p-0' id=''>
-            <h3 class='txt-white productos__titulo__fondo' id='cervezas'>Samobeers</h3>
-            <p class='txt-white'>EN PROCESO...</p>
-          </article> -->
+            </article>
+          </section>
+          <h3 class='txt-white productos__titulo__fondo' id='equipamiento'>Equipamiento</h3>
+          <section class="productos__bloque m-3">
+            <article class="tarjeta card--3">
+              <div class="tarjeta__body">
+                <div class="tarjeta__body__img">
+                  <img src="media/equipamiento/olla_30l.jpg" class="img-fluid" alt="olla inox 30 litros">
+                </div>
+                <div class="tarjeta__body__titulo textForm">
+                  <h5 class="text-center">Olla acero inox. 30l</h5>
+                </div>
+                <div class="tarjeta__body__desc text-center">
+                  <p>Olla hecha de acero inoxidable 304 con válvula incorporada para facilitar el re-circulado<br><em>Incluye termómetro bimetal</em></p>
+                </div>
+                <div class="tarjeta__body__boton">
+                  <button class="btn btn--fondo3 txt-white"><span>$8.800,00</span></button>
+                </div>
+              </div>
+            </article>
+            <article class="tarjeta card--3">
+              <div class="tarjeta__body">
+                <div class="tarjeta__body__img">
+                  <img src="media/equipamiento/kit_cervecero.jpeg" class="img-fluid" alt="kit cervecero">
+                </div>
+                <div class="tarjeta__body__titulo textForm">
+                  <h5 class="text-center">Kit cervecero (20l)</h5>
+                </div>
+                <div class="tarjeta__body__desc text-center">
+                  <p>Kit con todo el equipo necesario para elaborar tu cerveza artesanal inmediatamente<br>
+                    <em>Incluye: Olla acero inox. 20 litros, fermentador (20 litros), maltas, lúpulos, levadura, termometro, chapas y 10 botellas</em>
+                  </p>
+                </div>
+                <div class="tarjeta__body__boton">
+                  <button class="btn btn--fondo3 txt-white"><span>$25.600,00</span></button>
+                </div>
+              </div>
+            </article>
+            <article class="tarjeta card--3">
+              <div class="tarjeta__body">
+                <div class="tarjeta__body__img">
+                  <img src="media/equipamiento/chapadora_cerveza.jpg" class="img-fluid" alt="chapadora de botellas">
+                </div>
+                <div class="tarjeta__body__titulo textForm">
+                  <h5 class="text-center">Chapadora</h5>
+                </div>
+                <div class="tarjeta__body__desc text-center">
+                  <p>Chapadora doble palanca de plástico<br>
+                    <em>Incluye: 50 chapas de regalo</em>
+                  </p>
+                </div>
+                <div class="tarjeta__body__boton">
+                  <button class="btn btn--fondo3 txt-white"><span>$750,00</span></button>
+                </div>
+              </div>
+            </article>
+          </section>
+          <h3 class='txt-white productos__titulo__fondo' id='samobeers'>Samobeers</h3>
+          <section class="productos__bloque m-3">
+            <article>
+              <div class="flip-card mb-4">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="media/samobeers/american_ipa.jpg" alt="american IPA">
+                  </div>
+                  <div class="flip-card-back">
+                    <div class="flip-card-back-body">
+                      <h5 class="txt-white">American IPA</h5>
+                      <p class="text-format">Apariencia: <br> Color dorado/cobre cristalino</p>
+                      <p>Aroma: <br> Prominente aroma a lúpulo con un carácter cítrico, floral, resinoso y frutal</p>
+                      <p>Sabor: <br> Amargor medio-alto balanceado por la malta</p>
+                      <div class="flip-card-back-body-ibu_abv">
+                        <span class="txt-white">IBU: 40-70</span>
+                        <span class="txt-white">ABV: 5,5%</span>
+                      </div>
+                      <div class="tarjeta__body__boton">
+                        <button class="btn btn--fondo3 txt-white my-2"><span>$700,00 (6)</span></button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </article>
+            <article>
+              <div class="flip-card mb-4">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="media/samobeers/english_pale_ale.jpg" alt="english pale ale">
+                  </div>
+                  <div class="flip-card-back">
+                    <div class="flip-card-back-body">
+                      <h5 class="txt-white">English Pale Ale</h5>
+                      <p class="text-format">Apariencia: <br> Color cobre</p>
+                      <p>Aroma: <br> Ésteres afrutados, notas de caramelo</p>
+                      <p>Sabor: <br> Amargor medio-alto con retrogusto seco</p>
+                      <div class="flip-card-back-body-ibu_abv">
+                        <span class="txt-white">IBU: 25-35</span>
+                        <span class="txt-white">ABV: 4,5%</span>
+                      </div>
+                      <div class="tarjeta__body__boton">
+                        <button class="btn btn--fondo3 txt-white my-2"><span>$700,00 (6)</span></button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </article>
+            <article>
+              <div class="flip-card mb-4">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="media/samobeers/irish_red.jpg" alt="irish red beer">
+                  </div>
+                  <div class="flip-card-back">
+                    <div class="flip-card-back-body">
+                      <h5 class="txt-white">Irish red</h5>
+                      <p class="text-format">Apariencia: <br> Color rojizo</p>
+                      <p>Aroma: <br> Afrutada con un toque de mantequilla</p>
+                      <p>Sabor: <br> Dulce, acaramelada con poco amargor</p>
+                      <div class="flip-card-back-body-ibu_abv">
+                        <span class="txt-white">IBU: 17-28</span>
+                        <span class="txt-white">ABV: 4,0%</span>
+                      </div>
+                      <div class="tarjeta__body__boton">
+                        <button class="btn btn--fondo3 txt-white my-2"><span>$700,00 (6)</span></button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </article>
+          </section>
         </aside>
       </main>
     </div>
@@ -259,13 +361,9 @@
       <div class="row">
         <div class='footer__informacion__contacto col-6'>
           <p>Samoyedo Brewery - Montevideo, Uruguay</p>
-          <a href="mailto:samoyedo@gmail.com">Enviar email a Samoyedo Brewery</a>
-          <p>Teléfono: 555-555-555</p>
+          <a href="mailto:isuzca@gmail.com">Enviar email a Samoyedo Brewery</a>
           <div class="rrss">
-            <ul>
-              <li><a href="https://www.facebook.com" class="fa fa-facebook" target="_blank"></a></li>
-              <li><a href="https://www.instagram.com/samoyedobeer/" class="fa fa-instagram" target="_blank"></a></li>
-            </ul>
+            <a href="https://www.instagram.com/samoyedobeer/" class="fab fa-instagram" target="_blank"></a>
           </div>
         </div>
         <div class="footer__informacion__sitemap col-6">
@@ -291,12 +389,11 @@
                   <a class="" href="productos.html">Productos</a>
                   <ul class="">
                     <li><a href="cursos.html">Cursos<span class="badge rounded-pill bg-light text-dark">Nuevo</span></a></li>
-                    <li><a href="#levaduras">Levaduras</a></li>
-                    <li><a href="#maltas">Maltas</a></li>
-                    <li><a href="#lupulos">Lúpulos</a></li>
-                    <li><a href="#equipamiento">Equipamiento</a></li>
-                    <li><a href="#recetas">Recetas</a></li>
-                    <li><a href="#cervezas">Cervezas</a></li>
+                    <li><a href="productos.html#levaduras">Levaduras</a></li>
+                    <li><a href="productos.html#maltas">Maltas</a></li>
+                    <li><a href="productos.html#lupulos">Lúpulos</a></li>
+                    <li><a href="productos.html#equipamiento">Equipamiento</a></li>
+                    <li><a href="productos.html#cervezas">Cervezas</a></li>
                   </ul>
                 </li>
               </ul>
@@ -306,6 +403,7 @@
       </div>
     </div>
   </footer>
+  <script src="https://kit.fontawesome.com/e976698df9.js" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
 </body>
 </html>

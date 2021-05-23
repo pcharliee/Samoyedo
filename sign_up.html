@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="description" content="Samoyedo Brewery, brindando alegrías desde 2019. ¡Hazte socio para acceder a los Samo-beneficios que tenemos para tí!">
   <meta name="keywords" content="CERVEZA, ARTESANAL, CASERA, LEVADURAS, CURSOS, MALTAS, RECETAS, CANJEO, BENEFICIOS">
+  <link rel="shortcut icon" type="image/png" href="media/favicon.png">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
   rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
@@ -67,13 +68,9 @@
                 <li><a href="productos.html#maltas">Maltas</a></li>
                 <li><a href="productos.html#lupulos">Lúpulos</a></li>
                 <li><a href="productos.html#equipamiento">Equipamiento</a></li>
-                <li><a href="productos.html#recetas">Recetas</a></li>
                 <li><a href="productos.html#cervezas">Cervezas</a></li>
               </ul>
             </li>
-            <!-- <li class="nav-item">
-              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-            </li> -->
             <li class="nav-item">
               <a class="nav-link" href="contacto.html">Contacto</a>
             </li>
@@ -87,10 +84,10 @@
       </div>
     </div>
   </nav>
-  <div class="contianer-fluid">
+  <div class="container-fluid">
     <div class="row">
       <div class="col-md-4 col-lg-3 p-0">
-        <section class="sidebar__menu formulario__sidebar__beneficios p-3 text-white bg-dark stickyness mb-1" style="width: auto;" id='perfil-menu'>
+        <section class="sidebar__menu sidebar__menu--signup formulario__sidebar__beneficios p-3 text-white bg-dark stickyness stickyness--signup" style="width: auto;" id='perfil-menu'>
           <h6 class="fs-5 txt-white text-center">¿Conoces los Samo-beneficios?</h6>
           <div class= "formulario__sidebar__beneficios__detalles flex-column">
             <ul class= "formulario__sidebar__beneficios__detalles__lista">
@@ -103,12 +100,12 @@
           </div>
         </section>
       </div>
-      <section class="col-md-7 col-lg-7">
-        <div class="formulario textForm">
+      <section class="signup-form bg-img-signup screen-setter-signup col-md-8 col-lg-9">
+        <div class="formulario formulario--signup textForm px-4 my-3">
           <form action="">
-            <fieldset class='formulario__bloque formulario__bloque--altura'>
+            <fieldset class='formulario__bloque'>
               <h6 class='legend'>Ingresa tus Samodatos</h6>
-              <button type="button" class="btn btn--fondo4 boton__modal" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+              <button type="button" class="btn btn--fondo4 boton__modal my-3"  data-bs-toggle="modal" data-bs-target="#staticBackdrop">
                 ¿Conoces los Samo-beneficios?
               </button>
               <div class="userInfo">
@@ -118,14 +115,8 @@
                 </div>
                 <div class="mb-3">
                   <label for="usuario" class='textForm form-label'>Usuario</label>
-                  <input type="text" id='usuario' class='form-control text-center' placeholder='Este va a ser tu SamoApodo' name='usuario' required minlength="3">
+                  <input type="text" id='usuario' class='form-control text-center' name='usuario' required minlength="3">
                 </div>
-                <div class="mb-3">
-                  <label for="contrasena" class='textForm form-label'>Contraseña</label>
-                  <input type="password" id='contrasena' placeholder='Ingresa tu contraseña' class='form-control text-center' name='contrasena' required minlength="8">
-                </div>
-                <label class='form-label' for="validacion"></label>
-                <input type="password" id='validacion' placeholder='Reingresa tu contraseña' class='form-control text-center' name='validacion' required minlength="8">
                 <div class="mb-3">
                   <label class='form-label' for="email">Email</label>
                   <input class='form-control text-center'  type="text" id='email' name='email' required>
@@ -134,22 +125,15 @@
                   <label class='form-label' for="fecha">Fecha de Nacimiento</label>
                   <input class='form-control text-center' type="date" id='fecha' name='fecha' min="1948-01-01" max="2003-01-01" required>
                 </div>
-                <div class="mb-3">
-                  <div class="form-check form-switch">
-                    <input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" checked>
-                    <label class="form-check-label" for="flexSwitchCheckChecked">¿Newsletter?</label>
-                  </div>
-                </div>
               </div>
-              <div class="buttons">
-                <button type="submit" class="btn btn--fondo3" data-bs-toggle="modal" data-bs-target="#exampleModal">Registrarme</button>
+              <div class="buttons buttons--signup">
                 <button type="reset" class="btn btn--fondo2">Reset</button>
+                <button type="submit" class="btn btn--fondo3" data-bs-toggle="modal" data-bs-target="#exampleModal">Registrarme</button>
               </div>
             </fieldset>
           </form>
         </div>
       </section>
-      <aside class="col-md-4"></aside>
     </div>
   </div>
   <footer>
@@ -157,13 +141,9 @@
       <div class="row">
         <div class='footer__informacion__contacto col-6'>
           <p>Samoyedo Brewery - Montevideo, Uruguay</p>
-          <a href="mailto:samoyedo@gmail.com">Enviar email a Samoyedo Brewery</a>
-          <p>Teléfono: 555-555-555</p>
+          <a href="mailto:isuzca@gmail.com">Enviar email a Samoyedo Brewery</a>
           <div class="rrss">
-            <ul>
-              <li><a href="https://www.facebook.com" class="fa fa-facebook" target="_blank"></a></li>
-              <li><a href="https://www.instagram.com/samoyedobeer/" class="fa fa-instagram" target="_blank"></a></li>
-            </ul>
+            <a href="https://www.instagram.com/samoyedobeer/" class="fab fa-instagram" target="_blank"></a>
           </div>
         </div>
         <div class="footer__informacion__sitemap col-6">
@@ -193,7 +173,6 @@
                     <li><a href="productos.html#maltas">Maltas</a></li>
                     <li><a href="productos.html#lupulos">Lúpulos</a></li>
                     <li><a href="productos.html#equipamiento">Equipamiento</a></li>
-                    <li><a href="productos.html#recetas">Recetas</a></li>
                     <li><a href="productos.html#cervezas">Cervezas</a></li>
                   </ul>
                 </li>
@@ -204,6 +183,7 @@
       </div>
     </div>
   </footer>
+  <script src="https://kit.fontawesome.com/e976698df9.js" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
 </body>
 </html>

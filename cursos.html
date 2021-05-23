@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="description" content="Samoyedo Brewery, brindando alegrías desde 2019. Iniciate o profundiza tus conocimientos sobre las cervezas artenasales. Tenemos cursos para aquellos que se quieran iniciar y cocinar en casa o para aquellos que quieren iniciar su microbrewery">
   <meta name="keywords" content="CERVEZA, ARTESANAL, CASERA, LEVADURAS, CURSOS, MALTAS, RECETAS, MICROBREWERY, PRINCIPIANTE">
+  <link rel="shortcut icon" type="image/png" href="media/favicon.png">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
   rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
@@ -41,7 +42,6 @@
                 <li><a href="productos.html#maltas">Maltas</a></li>
                 <li><a href="productos.html#lupulos">Lúpulos</a></li>
                 <li><a href="productos.html#equipamiento">Equipamiento</a></li>
-                <li><a href="productos.html#recetas">Recetas</a></li>
                 <li><a href="productos.html#cervezas">Cervezas</a></li>
               </ul>
             </li>
@@ -76,57 +76,75 @@
             <p class='text-center'>
               No dejes que la duda de incapacite y comienza ya mismo a hacer tu propia cerveza artesanal. Con modalidad <em>online</em> y <em>presencial</em>, Samoyedo te acompañara durante todo tu aprendizaje, compartiremos recetas y anécdotas que harán de ti el Home Brewer que siempre quisiste ser.
             </p>
-            <form action="">
-              <button formaction='#cursos' class='btn btn--fondo3 text-center'>
-                ¿Qué estás esperando para hacer tu propia cerveza?
-              </button>
-            </form>
           </div>
         </div>
       </div>
     </div>
-    <article class="cursos m-4" id="cursos">	
-      <div class="card m-2" style="width: 20rem;">
-        <img src="media/puppy-samoyed.jpg" class="card-img-top" alt="samoyedo bebe">
-        <div class="card-body">
-          <h5 class="card-title text-center">Curso - Cachorro Samoyedo</h5>
-          <p class="card-text">Aprenderás los fundamentos básicos para elaborar cerveza artesanal desde tu casa.</p>
-          <p class='text-center'>Duración: 1 mes</p>
-          <a href="#" class="btn btn-warning">Agregar al carrito</a>
-        </div>
-      </div>
-      <div class="card m-2" style="width: 20rem;">
-        <img src="media/puppy.jpeg" class="card-img-top" alt="samoyedo joven">
-        <div class="card-body">
-          <h5 class="card-title text-center">Curso - Joven Samoyedo</h5>
-          <p class="card-text">Para iniciados. Aprenderás a elaborar tus propias recetas, horneado y fermentación con levadura reciclada</p>
-          <p class='text-center'>Duración: 2 meses<i class="fas fa-facebook-messenger    "></i></p>
-          <a href="#" class="btn btn-warning">Agregar al carrito</a>
-        </div>
-      </div>
-      <div class="card m-2" style="width: 20rem;">
-        <img src="media/samoyedo_feliz.jpg" class="card-img-top" alt="samoyedo adulto">
-        <div class="card-body">
-          <h5 class="card-title text-center">Curso - Líder Samoyedo</h5>
-          <p class="card-text">Para aquellos que ya cocinan a modo de entretenimiento y quieren dar el salto y armar su microcervecería</p>
-          <p class='text-center'>Duración: 4 meses</p>
-          <a href="#" class="btn btn-warning">Agregar al carrito</a>
-        </div>
-      </div>
-    </article>
-  </section>
+    <div class="bg-img-cursos">
+      <h3 class='txt-white bg-dark' id='cursos'>Cursos</h3>
+      <section class="productos__bloque__cursos">
+        <article class="tarjeta card--3">
+          <div class="tarjeta__body">
+            <div class="tarjeta__body__img">
+              <img src="media/puppy-samoyed.jpg" class="img-fluid" alt="samoyedo bebe">
+            </div>
+            <div class="tarjeta__body__titulo textForm">
+              <h5>Cachorro Samoyedo</h5>
+            </div>
+            <div class="tarjeta__body__desc tarjeta__body__desc--cursos text-center">
+              <p>Aprenderás los fundamentos básicos para elaborar cerveza artesanal desde tu casa<br> <strong>Duración: 1 mes</strong></p>
+            </div>
+            <div class="tarjeta__body__boton">
+              <button class="btn btn--fondo3 txt-white"><span>$4.000,00</span></button>
+            </div>
+          </div>
+        </article>
+        <article class="tarjeta card--3">
+          <div class="tarjeta__body">
+            <div class="tarjeta__body__img tarjeta__body__img--cursos">
+              <img src="media/puppy.jpeg" class="img-fluid" alt="samoyedo bebe">
+            </div>
+            <div class="tarjeta__body__titulo textForm">
+              <h5>Joven Samoyedo</h5>
+            </div>
+            <div class="tarjeta__body__desc tarjeta__body__desc--cursos text-center">
+              <p>Para iniciados. Aprenderás a elaborar tus propias recetas, horneado y fermentación con levadura reciclada<br> <strong>Duración: 2 meses</strong></p>
+            </div>
+            <div class="tarjeta__body__boton">
+              <button class="btn btn--fondo3 txt-white"><span>$4.500,00</span></button>
+            </div>
+          </div>
+        </article>
+        <article class="tarjeta card--3">
+          <div class="tarjeta__body">
+            <div class="tarjeta__body__img tarjeta__body__img--cursos">
+              <img src="media/puppy.jpeg" class="img-fluid" alt="samoyedo bebe">
+            </div>
+            <div class="tarjeta__body__titulo textForm">
+              <h5>Líder Samoyedo</h5>
+            </div>
+            <div class="tarjeta__body__desc tarjeta__body__desc--cursos text-center">
+              <p>Para aquellos que ya cocinan en casa y quieren dar el salto y armar su microcervecería<br> <strong>Duración: 4 meses</strong></p>
+            </div>
+            <div class="tarjeta__body__boton">
+              <button class="btn btn--fondo3 txt-white"><span>$5.200,00</span></button>
+            </div>
+          </div>
+        </article>
+        <a href="contacto.html" class="btn btn--fondo4 cursos_ayuda">
+          ¿Tienes dudas? Envianos tus comentarios
+        </a>
+      </section>
+    </div>
+  </div>
   <footer>
     <div class="container-fluid">
       <div class="row">
         <div class='footer__informacion__contacto col-6'>
           <p>Samoyedo Brewery - Montevideo, Uruguay</p>
-          <a href="mailto:samoyedo@gmail.com">Enviar email a Samoyedo Brewery</a>
-          <p>Teléfono: 555-555-555</p>
+          <a href="mailto:isuzca@gmail.com">Enviar email a Samoyedo Brewery</a>
           <div class="rrss">
-            <ul>
-              <li><a href="https://www.facebook.com" class="fa fa-facebook" target="_blank"></a></li>
-              <li><a href="https://www.instagram.com/samoyedobeer/" class="fa fa-instagram" target="_blank"></a></li>
-            </ul>
+            <a href="https://www.instagram.com/samoyedobeer/" class="fab fa-instagram" target="_blank"></a>
           </div>
         </div>
         <div class="footer__informacion__sitemap col-6">
@@ -156,7 +174,6 @@
                     <li><a href="productos.html#maltas">Maltas</a></li>
                     <li><a href="productos.html#lupulos">Lúpulos</a></li>
                     <li><a href="productos.html#equipamiento">Equipamiento</a></li>
-                    <li><a href="productos.html#recetas">Recetas</a></li>
                     <li><a href="productos.html#cervezas">Cervezas</a></li>
                   </ul>
                 </li>
@@ -167,6 +184,7 @@
       </div>
     </div>
   </footer>
+  <script src="https://kit.fontawesome.com/e976698df9.js" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
 </body>
 </html>

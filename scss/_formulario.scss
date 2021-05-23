@@ -2,8 +2,15 @@
 @import 'opsReutilizables';
 
 .formulario__bloque{
-  background: rgba(226, 255, 213, 0.973);
+  background: rgba(226, 255, 213, 0.84);
   padding: 10px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.formulario__contacto__container{
+  width: 60vw;
+  margin: auto
 }
 
 .legend {
@@ -44,19 +51,31 @@
   }
 }
 
+.signup-form{
+  @include fl-col;
+  align-items: center;
+}
+
+.bg-img-signup{
+  background-image: url('../media/snow_grass-min.jpg');
+  background-size: cover;
+  background-position: center bottom;
+}
+
 .userInfo{
   height: auto;
   @include fl-col;
   text-align: center;
-  width: 70%;
+  width: 100%;
   input{
-    width: 100%;
+    width: 70%;
+    margin: auto;
   }
 }
 
 .buttons{
   display: flex;
-  width: 240px;
+  width: 180px;
   flex-direction: row;
   justify-content: space-evenly;
   margin: 10px 0;
@@ -67,8 +86,9 @@
   }
 }
 
-.formulario__bloque--altiancho{
-  height: 350px;
+.buttons--signup{
+  width: 200px;
+  justify-content: space-between;
 }
 
 .formulario__sidebar__beneficios__detalles{
@@ -82,6 +102,23 @@
   font-size: 0.9 rem;
 }
 
+.form-switch{
+  border: 1px red dotted;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .modal{
-  z-index: 10000;
+  z-index: 100000;
+}
+
+.boton__modal{
+  height:auto;
+  width: auto;
+  font-size: 0.8rem;
+}
+
+.modal-body{
+  padding: 0 10px;
 }
