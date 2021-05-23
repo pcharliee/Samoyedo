@@ -65,7 +65,7 @@ body {
   padding: 10px; }
 
 .samobeers {
-  margin-top: 30px;
+  margin-top: 20px;
   background-color: #001514;
   border-radius: 10px;
   padding: 20px; }
@@ -241,6 +241,10 @@ body else {
   text-transform: uppercase;
   color: #001514;
   text-align: center; }
+
+.regular-text {
+  font-family: 'Oswald', Arial, Helvetica, sans-serif;
+  text-align: justify; }
 
 .secciones a {
   font-family: 'Oswald', Arial, Helvetica, sans-serif;
@@ -744,6 +748,10 @@ body else {
   color: #001514;
   text-align: center; }
 
+.regular-text {
+  font-family: 'Oswald', Arial, Helvetica, sans-serif;
+  text-align: justify; }
+
 .secciones a {
   font-family: 'Oswald', Arial, Helvetica, sans-serif;
   text-transform: uppercase;
@@ -1062,6 +1070,9 @@ body else {
   .tarjeta__body__desc p {
     margin: 0; }
 
+.tarjeta__body__boton .btn {
+  text-transform: lowercase; }
+
 .tarjeta__body__boton a {
   padding: 5px 10px;
   background-color: #5b8c5a;
@@ -1333,6 +1344,8 @@ body else {
     font-size: 0.8rem; }
   .contacto__texto {
     font-size: 0.8rem; }
+  .formulario__bloque--home {
+    height: auto; }
   .login-home {
     height: 100%; } }
 

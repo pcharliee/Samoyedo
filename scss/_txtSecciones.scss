@@ -18,6 +18,11 @@
   text-align: center;
 }
 
+.regular-text{
+  font-family: 'Oswald', Arial, Helvetica, sans-serif;
+  text-align: justify
+}
+
 .secciones{
   a {
     @include text-format;

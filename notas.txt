@@ -3,14 +3,15 @@ https://pcharliee.github.io/Samoyedo/
 
 to-do:
 
-[] -- rediseno del homepage
-  [] -- imagen de fondo estatica mientras scrolleas (?)
-  [] -- tarjetas con info de la cerveza atras
+[] -- modal de inicio
 [] -- espaciados en todos los HTML
+[x] -- reducir el texto o pasarlo a minuscula
+[x] -- x6 a las tarjetas
   [x] == revisar footer en pantallas gigantes (queda corto)
   [x] == signup
-[] -- modal de inicio
-[] -- rediseno del footer
+[x] -- rediseno del homepage
+  [x] -- tarjetas con info de la cerveza atras
+[x] -- rediseno del footer
 [x] -- cambiar los iconos de RRSS
 [x] -- revisar el redireccionamiento a la seccion productos
 [x] == productos > [x] == cambiarle el color a bg-dark
