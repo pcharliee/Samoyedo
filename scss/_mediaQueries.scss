@@ -90,7 +90,7 @@
   }
   
   .productos__titulo__fondo{
-    background-color: $dark;
+    background-color: #212529;
   }
   
   .legend{
@@ -260,15 +260,15 @@
   }
   
   .sidebar__menu--signup{
-    height: 70vh;
+    height: 71vh;
   }
   
   .sidebar__menu--perfil{
-    height: 70vh;
+    height: 71vh;
   }
   
   .screen-setter-contacto{
-    height: 70vh;
+    height: 71vh;
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
@@ -281,10 +281,14 @@
   }
 
   .screen-setter-signup{
-    height: 70vh;
+    height: 71vh;
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
     justify-content: space-around;
+  }
+  
+  .formulario__bloque--home{
+    height: 70vh;
   }
 }

@@ -1071,7 +1071,7 @@ body else {
     margin: 0; }
 
 .tarjeta__body__boton .btn {
-  text-transform: lowercase; }
+  text-transform: initial; }
 
 .tarjeta__body__boton a {
   padding: 5px 10px;
@@ -1332,7 +1332,7 @@ body else {
   #perfil-menu {
     display: none !important; }
   .productos__titulo__fondo {
-    background-color: #001514; }
+    background-color: #212529; }
   .legend {
     font-size: 1.5rem; }
   .carou-img, .carou-img2, .carou-img3, .carou-img4 {
@@ -1431,11 +1431,11 @@ body else {
   .sidebar__list {
     height: 45vh; }
   .sidebar__menu--signup {
-    height: 70vh; }
+    height: 71vh; }
   .sidebar__menu--perfil {
-    height: 70vh; }
+    height: 71vh; }
   .screen-setter-contacto {
-    height: 70vh;
+    height: 71vh;
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
@@ -1444,11 +1444,13 @@ body else {
     width: 60%;
     margin: auto; }
   .screen-setter-signup {
-    height: 70vh;
+    height: 71vh;
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
-    justify-content: space-around; } }
+    justify-content: space-around; }
+  .formulario__bloque--home {
+    height: 70vh; } }
 
 /* ANIMACIONES */
 .fade-in {
@@ -1582,3 +1584,5 @@ body else {
 .contacto__texto {
   background-color: rgba(243, 243, 243, 0.7);
   border-radius: 5px; }
+  .contacto__texto p {
+    text-transform: initial; }
