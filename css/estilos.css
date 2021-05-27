@@ -244,7 +244,7 @@ body else {
 
 .regular-text {
   font-family: 'Oswald', Arial, Helvetica, sans-serif;
-  text-align: justify; }
+  text-align: center; }
 
 .secciones a {
   font-family: 'Oswald', Arial, Helvetica, sans-serif;
@@ -750,7 +750,7 @@ body else {
 
 .regular-text {
   font-family: 'Oswald', Arial, Helvetica, sans-serif;
-  text-align: justify; }
+  text-align: center; }
 
 .secciones a {
   font-family: 'Oswald', Arial, Helvetica, sans-serif;
@@ -910,6 +910,9 @@ footer {
 a:hover {
   color: #f7f6e7; }
 
+.accordion-body p {
+  text-align: center; }
+
 /*SIDEBAR PRODUCTOS*/
 body else {
   background-image: linear-gradient(to bottom, #314e52, #001514); }
@@ -1016,7 +1019,8 @@ body else {
 
 .productos__titulo__fondo {
   background-image: linear-gradient(to right, #212529, rgba(10, 87, 10, 0));
-  font-size: 1.5rem; }
+  font-size: 1.5rem;
+  padding: 5px 0; }
 
 .card-body {
   display: flex;
@@ -1299,7 +1303,10 @@ body else {
     color: #001514;
     font-size: 1.1rem; }
   .perfil {
-    padding: 20px; } }
+    padding: 20px; }
+  .contacto__texto {
+    width: 85% !important;
+    font-size: 0.8rem; } }
 
 @media only screen and (min-width: 920px) {
   #title {
@@ -1343,6 +1350,7 @@ body else {
     width: 80vw;
     font-size: 0.8rem; }
   .contacto__texto {
+    width: 85%;
     font-size: 0.8rem; }
   .formulario__bloque--home {
     height: auto; }
@@ -1387,7 +1395,9 @@ body else {
   .login-home {
     height: 100%; }
   .formulario--home {
-    position: static; } }
+    position: static; }
+  .contacto__texto {
+    width: 61%; } }
 
 /*iPad Comun*/
 @media only screen and (min-width: 768px) and (max-width: 1000px) {
@@ -1418,7 +1428,9 @@ body else {
   .formulario__bloque--home {
     height: 39vh; }
   .formulario--home {
-    position: static; } }
+    position: static; }
+  .contacto__texto {
+    width: 60%; } }
 
 /*Pantallas grandes*/
 @media only screen and (min-width: 1500px) {
@@ -1583,6 +1595,8 @@ body else {
 
 .contacto__texto {
   background-color: rgba(243, 243, 243, 0.7);
-  border-radius: 5px; }
+  border-radius: 5px;
+  width: 62%;
+  margin: auto; }
   .contacto__texto p {
     text-transform: initial; }

@@ -36,6 +36,11 @@
   .perfil{
     padding: 20px
   }
+
+  .contacto__texto{
+    width: 85%!important;
+    font-size: 0.8rem;
+  }
 } 
 
 @media only screen and (min-width: 920px) {
@@ -111,6 +116,7 @@
   }
   
   .contacto__texto{
+    width: 85%;
     font-size: 0.8rem;
   }
 
@@ -187,7 +193,11 @@
   }
   .formulario--home{
     position:static
-  }  
+  } 
+
+  .contacto__texto{
+    width: 61%;
+  }
 }
 
 /*iPad Comun*/
@@ -238,6 +248,10 @@
 
   .formulario--home{
     position:static
+  }
+
+  .contacto__texto{
+    width: 60%;
   }
 }
 
